@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "go/README.md",
+                "file": "docs/notes/lesson-1.2-memory-layout.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "lesson-1.2-memory-layout"
             }
           }
         ]
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "go/README.md",
+                "file": "docs/notes/lesson-1.2-memory-layout.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for README"
+              "title": "Backlinks for lesson-1.2-memory-layout"
             }
           },
           {
@@ -165,13 +165,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "go/README.md",
+                "file": "docs/notes/lesson-1.2-memory-layout.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of lesson-1.2-memory-layout"
             }
           },
           {
@@ -199,7 +199,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,14 +215,21 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "3c660572df5ae446",
+  "active": "8e5b1f970161483c",
   "lastOpenFiles": [
+    "docs/notes/lesson-1.1-complexity-analysis.md",
+    "docs/README.md",
+    "docs/diagrams/lesson-1.1/complexity-chart.md",
+    "docs/adr/0001-use-rabbitmq.md",
+    "algorithms/README.md",
+    "algorithms/searching/linear-search/README.md",
+    "algorithms/searching/binary-search/README.md",
+    "networking/README.md",
+    "go/README.md",
     "linux/README.md",
     "README.md",
     "ROADMAP.md",
     "benchmarks/searching/Untitled.base",
-    "benchmarks/searching/binary-search.md",
-    "networking/README.md",
-    "algorithms/README.md"
+    "benchmarks/searching/binary-search.md"
   ]
 }
