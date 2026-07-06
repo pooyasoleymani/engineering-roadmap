@@ -6,11 +6,18 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "🧠",
-      "📔",
-      "📰",
-      "📘",
-      "🍀"
+      "LiExperiment",
+      "LiCode",
+      "FabGolang",
+      "LiBookTemplate",
+      "FabPython",
+      "LiProjector",
+      "LiNetwork",
+      "FabLinux",
+      "FabDochub",
+      "LiBookOpen",
+      "LiDiff",
+      "LiWorkflow"
     ],
     "recentlyUsedIconsSize": 12,
     "rules": [],
@@ -40,5 +47,17 @@
   "Permanet Note": "☔",
   "Evergreen Note": "🍀",
   "Literature notes": "📰",
-  "Fleeting note": "🧠"
+  "Fleeting note": "🧠",
+  "algorithms": "LiWorkflow",
+  "benchmarks": "LiDiff",
+  "books": "LiBookOpen",
+  "docs": "FabDochub",
+  "linux": "FabLinux",
+  "networking": "LiNetwork",
+  "projects": "LiProjector",
+  "python": "FabPython",
+  "templates": "LiBookTemplate",
+  "go": "FabGolang",
+  "cpp": "LiCode",
+  "experiments": "LiExperiment"
 }

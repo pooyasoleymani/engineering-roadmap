@@ -86,4 +86,4 @@ Books
 Current Stage
 
 Week 1
-Lesson 1.2
+Lesson 1.3
