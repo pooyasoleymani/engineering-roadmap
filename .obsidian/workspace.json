@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/notes/lesson-1.2-memory-layout.md",
+                "file": "docs/glossary/cache-miss.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lesson-1.2-memory-layout"
+              "title": "cache-miss"
             }
           }
         ]
@@ -88,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 316.5
   },
   "right": {
     "id": "5eeb0b228988cff3",
@@ -165,13 +165,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/lesson-1.2-memory-layout.md",
+                "file": "docs/glossary/cache-miss.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lesson-1.2-memory-layout"
+              "title": "Outline of cache-miss"
             }
           },
           {
@@ -217,6 +217,15 @@
   },
   "active": "8e5b1f970161483c",
   "lastOpenFiles": [
+    "docs/glossary/cache-locality.md",
+    "docs/glossary/cache-line.md",
+    "docs/glossary/big-O.md",
+    "docs/glossary/amortized-analysis.md",
+    "docs/diagrams/lesson-1.2/stack-vs-heap.md",
+    "docs/diagrams/lesson-1.2/pointer-chasing.md",
+    "docs/diagrams/lesson-1.2/memory-hierarchy.md",
+    "docs/diagrams/lesson-1.2/cpu-cache.md",
+    "docs/notes/lesson-1.2-memory-layout.md",
     "docs/notes/lesson-1.1-complexity-analysis.md",
     "docs/README.md",
     "docs/diagrams/lesson-1.1/complexity-chart.md",
