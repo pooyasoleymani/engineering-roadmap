@@ -1,8 +1,7 @@
-# Lesson 1.2 - Memory Layout & Cache-Friendly Programming
+---
+Date: 2026-07-04
+---
 
-Date
-
-2026-07-04
 
 ---
 

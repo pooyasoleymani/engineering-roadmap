@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/notes/lesson-1.2-memory-layout.md",
+                "file": "docs/glossary/cache-locality.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lesson-1.2-memory-layout"
+              "title": "cache-locality"
             }
           }
         ]
@@ -165,13 +165,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/lesson-1.2-memory-layout.md",
+                "file": "docs/glossary/cache-locality.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lesson-1.2-memory-layout"
+              "title": "Outline of cache-locality"
             }
           },
           {
@@ -217,7 +217,25 @@
   },
   "active": "8e5b1f970161483c",
   "lastOpenFiles": [
+    "docs/interview/memory-layout.md",
+    "docs/interview/complexity-analysis.md",
+    "docs/interview/binary-search.md",
+    "docs/interview/arrays.md",
     "docs/notes/lesson-1.1-complexity-analysis.md",
+    "docs/notes/lesson-1.2-memory-layout.md",
+    "docs/glossary/array.md",
+    "docs/glossary/capacity.md",
+    "docs/glossary/big-O.md",
+    "docs/glossary/amortized-analysis.md",
+    "docs/glossary/cache-line.md",
+    "docs/glossary/cache-locality.md",
+    "docs/notes/lesson-1.3-arrays.md",
+    "docs/diagrams/lesson-1.3/insert-delete.md",
+    "docs/diagrams/lesson-1.3/dynamic-array-growth.md",
+    "docs/diagrams/lesson-1.3/array-layout.md",
+    "docs/diagrams/lesson-1.3",
+    "docs/glossary/contiguous-memory.md",
+    "docs/glossary/dynamic-array.md",
     "docs/README.md",
     "docs/diagrams/lesson-1.1/complexity-chart.md",
     "docs/adr/0001-use-rabbitmq.md",
@@ -226,10 +244,6 @@
     "algorithms/searching/binary-search/README.md",
     "networking/README.md",
     "go/README.md",
-    "linux/README.md",
-    "README.md",
-    "ROADMAP.md",
-    "benchmarks/searching/Untitled.base",
-    "benchmarks/searching/binary-search.md"
+    "benchmarks/searching/Untitled.base"
   ]
 }
