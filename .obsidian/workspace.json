@@ -247,7 +247,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -262,12 +263,19 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "3c660572df5ae446",
+  "active": "8e5b1f970161483c",
   "lastOpenFiles": [
-    "benchmarks/search/linear-vs-binary-search",
-    "benchmarks/search",
-    "algorithms/searching/main.go",
-    "algorithms/go.mod",
+    "cpp/arrays/array.hpp",
+    "cpp/arrays/main.cpp",
+    "cpp/arrays/array.cpp",
+    "cpp/arrays/CMakeLists.txt",
+    "cpp/arrays/CMakeList.txt",
+    "cpp/arrays",
+    "algorithms/arrays/dynamic_array.go",
+    "algorithms/arrays/dynamic_array_test.go",
+    "algorithms/arrays/dynamic-array.go",
+    "algorithms/arrays",
+    "algorithms/array",
     "docs/notes/lesson-1.3-arrays.md",
     "docs/glossary/prefetching.md",
     "docs/glossary/pointer-chasing.md",
@@ -284,7 +292,6 @@
     "docs/glossary/dynamic-array.md",
     "docs/glossary/contiguous-memory.md",
     "docs/glossary/capacity.md",
-    "docs/diagrams/lesson-1.3",
     "docs/notes/lesson-1.1-complexity-analysis.md",
     "docs/glossary/cache-miss.md",
     "docs/glossary/cache-locality.md",
@@ -293,7 +300,6 @@
     "docs/diagrams/lesson-1.2/stack-vs-heap.md",
     "docs/diagrams/lesson-1.2/pointer-chasing.md",
     "docs/diagrams/lesson-1.2/memory-hierarchy.md",
-    "docs/diagrams/lesson-1.2/cpu-cache.md",
-    "benchmarks/searching/Untitled.base"
+    "docs/diagrams/lesson-1.2/cpu-cache.md"
   ]
 }
