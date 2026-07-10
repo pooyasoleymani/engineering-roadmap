@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/notes/lesson-1.2-memory-layout.md",
+                "file": "docs/glossary/cache-locality.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lesson-1.2-memory-layout"
+              "title": "cache-locality"
             }
           }
         ]
@@ -165,13 +165,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/lesson-1.2-memory-layout.md",
+                "file": "docs/glossary/cache-locality.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lesson-1.2-memory-layout"
+              "title": "Outline of cache-locality"
             }
           },
           {
@@ -180,8 +180,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -214,8 +214,19 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "8e5b1f970161483c",
+  "active": "bb0faf79d39e3a26",
   "lastOpenFiles": [
+    "docs/glossary/cache-miss.md",
+    "docs/glossary/cache-locality.md",
+    "docs/glossary/pointer-chasing.md",
+    "docs/glossary/cache-line.md",
+    "docs/glossary/array.md",
+    "docs/glossary/temporal-locality.md",
+    "docs/glossary/spatial-locality.md",
+    "docs/interview/memory-layout.md",
+    "docs/interview/complexity-analysis.md",
+    "docs/interview/binary-search.md",
+    "docs/interview/arrays.md",
     "docs/notes/lesson-1.1-complexity-analysis.md",
     "docs/notes/lesson-1.2-memory-layout.md",
     "docs/glossary/cache-miss.md",
@@ -231,14 +242,6 @@
     "docs/diagrams/lesson-1.1/complexity-chart.md",
     "docs/adr/0001-use-rabbitmq.md",
     "algorithms/README.md",
-    "algorithms/searching/linear-search/README.md",
-    "algorithms/searching/binary-search/README.md",
-    "networking/README.md",
-    "go/README.md",
-    "linux/README.md",
-    "README.md",
-    "ROADMAP.md",
-    "benchmarks/searching/Untitled.base",
-    "benchmarks/searching/binary-search.md"
+    "benchmarks/searching/Untitled.base"
   ]
 }
