@@ -1,7 +1,7 @@
-# Lesson 1.1 - Complexity Analysis
+---
+Date: 2026-07-04
+---
 
-Date:
-2026-07-04
 
 ---
 
