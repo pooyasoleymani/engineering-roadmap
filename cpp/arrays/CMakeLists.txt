@@ -19,6 +19,8 @@ endif()
 # Enable folders in IDEs
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
+add_executable(array)
+
 target_sources(array
     PRIVATE
     main.cpp
