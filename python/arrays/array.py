@@ -1,8 +1,13 @@
-from typing import List, Sequence, Optional
+from typing import List, Sequence, Optional, Any
 
 
-class DynamicArray:
-    def __init__(items: Optional[Sequence]=None) -> None:
+class DynamicArray[T]:
+    def __init__(items: Optional[Sequence[T]]=None) -> None:
         self.items = items or []
-        self.capacity = None
-        self.size = len
+        self.capacity = 8
+        self.size = len(self.item)
+    
+    def append(item: T):
+        if self.size == self.capacity:
+            self.capacity *=2
+        self.items.append(item)
