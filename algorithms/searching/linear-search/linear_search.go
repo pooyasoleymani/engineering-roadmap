@@ -1,8 +1,7 @@
 package serach
 
-
-func LinearSearch(item, int, arr []int) int {
-	for _, i : range arr {
+func LinearSearch(item int, arr []int) int {
+	for _, i := range arr {
 		if item == i {
 			return item
 		}

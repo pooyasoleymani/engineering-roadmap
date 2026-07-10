@@ -28,6 +28,6 @@ Arrays benefit from this because elements are contiguous.
 
 ## Related Concepts
 
-- CPU Cache
-- Spatial Locality
-- Prefetching
+- CPU Cache [[cpu-cache]]
+- Spatial Locality [[spatial-locality]]
+- Prefetching [[prefetching]]

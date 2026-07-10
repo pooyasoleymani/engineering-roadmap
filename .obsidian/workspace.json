@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/notes/lesson-1.2-memory-layout.md",
+                "file": "docs/notes/lesson-1.3-arrays.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,55 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lesson-1.2-memory-layout"
+              "title": "lesson-1.3-arrays"
+            }
+          },
+          {
+            "id": "84fb9cbc8bc6d9b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/glossary/cache-line.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "cache-line"
+            }
+          },
+          {
+            "id": "261b526336bcd212",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/glossary/prefetching.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "prefetching"
             }
           }
         ]
@@ -165,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/lesson-1.2-memory-layout.md",
+                "file": "docs/notes/lesson-1.3-arrays.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lesson-1.2-memory-layout"
+              "title": "Outline of lesson-1.3-arrays"
             }
           },
           {
@@ -199,7 +247,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -214,35 +263,36 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "bb0faf79d39e3a26",
+  "active": "3c660572df5ae446",
   "lastOpenFiles": [
+    "algorithms/searching/main.go",
+    "algorithms/go.mod",
     "docs/notes/lesson-1.3-arrays.md",
+    "docs/glossary/prefetching.md",
+    "docs/glossary/pointer-chasing.md",
+    "docs/glossary/cache-line.md",
+    "docs/glossary/pre.md",
+    "docs/glossary/array.md",
+    "docs/diagrams/lesson-1.3/insert-delete.md",
+    "docs/diagrams/lesson-1.3/dynamic-array-growth.md",
+    "docs/diagrams/lesson-1.3/array-layout.md",
+    "docs/README.md",
+    "docs/notes/lesson-1.2-memory-layout.md",
     "docs/interview/binary-search.md",
     "docs/interview/arrays.md",
     "docs/glossary/dynamic-array.md",
     "docs/glossary/contiguous-memory.md",
     "docs/glossary/capacity.md",
-    "docs/glossary/array.md",
-    "docs/diagrams/lesson-1.3/insert-delete.md",
-    "docs/diagrams/lesson-1.3/dynamic-array-growth.md",
-    "docs/diagrams/lesson-1.3/array-layout.md",
     "docs/diagrams/lesson-1.3",
     "docs/notes/lesson-1.1-complexity-analysis.md",
-    "docs/notes/lesson-1.2-memory-layout.md",
     "docs/glossary/cache-miss.md",
     "docs/glossary/cache-locality.md",
-    "docs/glossary/cache-line.md",
     "docs/glossary/big-O.md",
     "docs/glossary/amortized-analysis.md",
     "docs/diagrams/lesson-1.2/stack-vs-heap.md",
     "docs/diagrams/lesson-1.2/pointer-chasing.md",
     "docs/diagrams/lesson-1.2/memory-hierarchy.md",
     "docs/diagrams/lesson-1.2/cpu-cache.md",
-    "docs/README.md",
-    "docs/diagrams/lesson-1.1/complexity-chart.md",
-    "docs/adr/0001-use-rabbitmq.md",
-    "algorithms/README.md",
-    "algorithms/searching/linear-search/README.md",
     "benchmarks/searching/Untitled.base"
   ]
 }
