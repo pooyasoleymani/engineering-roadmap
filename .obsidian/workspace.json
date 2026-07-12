@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/glossary/cache-locality.md",
+                "file": "benchmarks/memory/array-vs-linked-list.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "cache-locality"
+              "title": "array-vs-linked-list"
             }
           }
         ]
@@ -165,13 +165,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/glossary/cache-locality.md",
+                "file": "benchmarks/memory/array-vs-linked-list.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of cache-locality"
+              "title": "Outline of array-vs-linked-list"
             }
           },
           {
@@ -214,8 +214,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "bb0faf79d39e3a26",
+  "active": "8e5b1f970161483c",
   "lastOpenFiles": [
+    "docs/glossary/spatial-locality.md",
+    "docs/glossary/cache-locality.md",
     "python/arrays/array.py",
     "python/arrays",
     "docs/glossary/prefetching.md",
@@ -227,14 +229,11 @@
     "benchmarks/search",
     "algorithms/searching/main.go",
     "algorithms/arrays/dynamic_array_test.go",
-    "algorithms/arrays/dynamic_array.go",
     "docs/glossary/cache-miss.md",
-    "docs/glossary/cache-locality.md",
     "docs/glossary/pointer-chasing.md",
     "docs/glossary/cache-line.md",
     "docs/glossary/array.md",
     "docs/glossary/temporal-locality.md",
-    "docs/glossary/spatial-locality.md",
     "docs/interview/memory-layout.md",
     "docs/interview/complexity-analysis.md",
     "docs/interview/binary-search.md",
