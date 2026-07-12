@@ -19,7 +19,7 @@
       "LiDiff",
       "LiWorkflow"
     ],
-    "recentlyUsedIconsSize": 12,
+    "recentlyUsedIconsSize": 25,
     "rules": [],
     "extraMargin": {
       "top": 0,
@@ -48,7 +48,6 @@
   "Evergreen Note": "🍀",
   "Literature notes": "📰",
   "Fleeting note": "🧠",
-  "algorithms": "LiWorkflow",
   "benchmarks": "LiDiff",
   "books": "LiBookOpen",
   "docs": "FabDochub",
