@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "benchmarks/memory/array-vs-linked-list.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "array-vs-linked-list"
+              "title": "README"
             }
           }
         ]
@@ -165,13 +165,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "benchmarks/memory/array-vs-linked-list.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of array-vs-linked-list"
+              "title": "Outline of README"
             }
           },
           {
@@ -214,8 +214,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "3c660572df5ae446",
+  "active": "8e5b1f970161483c",
   "lastOpenFiles": [
+    "docs/mistakes",
+    "docs/architecture",
+    "ROADMAP.md",
+    "benchmarks/memory/array-vs-linked-list.md",
     "computer-sience/algorithms/distributed-systems",
     "computer-sience/databases",
     "computer-sience/operating-systems",
@@ -226,11 +230,8 @@
     "computer-sience/algorithms/searching/linear-search/benchmark_test.go",
     "computer-sience/algorithms/searching/linear-search/README.md",
     "computer-sience/algorithms/searching/binary-search/binary_search_test.go",
-    "computer-sience/algorithms/searching/binary-search/binary_search_recursive_test.go",
-    "computer-sience/algorithms/searching/binary-search/binary_search_recursive.go",
     "computer-sience/algorithms/searching/binary-search/README.md",
     "computer-sience/algorithms/README.md",
-    "ROADMAP.md",
     "README.md",
     "cpp/external/catch2/docs/why-catch.md",
     "cpp/external/catch2/docs/usage-tips.md",
@@ -251,7 +252,6 @@
     "cpp/external/catch2/docs/matchers.md",
     "cpp/external/catch2/docs/logging.md",
     "cpp/external/catch2/docs/list-of-examples.md",
-    "cpp/external/catch2/docs/limitations.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
