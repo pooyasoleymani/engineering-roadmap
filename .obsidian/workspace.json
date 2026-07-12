@@ -199,8 +199,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,7 +214,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "8e5b1f970161483c",
+  "active": "bb0faf79d39e3a26",
   "lastOpenFiles": [
     "computer-sience/algorithms/distributed-systems",
     "computer-sience/databases",
