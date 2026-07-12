@@ -217,6 +217,9 @@
   },
   "active": "8e5b1f970161483c",
   "lastOpenFiles": [
+    "algorithms/searching/binary-search/benchmark_recursive_test.go",
+    "algorithms/searching/binary-search/benchmark_test copy.go",
+    "algorithms/go.mod",
     "docs/glossary/spatial-locality.md",
     "docs/glossary/cache-locality.md",
     "python/arrays/array.py",
@@ -228,8 +231,6 @@
     "cpp/arrays",
     "benchmarks/search/linear-vs-binary-search",
     "benchmarks/search",
-    "algorithms/searching/main.go",
-    "algorithms/arrays/dynamic_array_test.go",
     "docs/glossary/cache-miss.md",
     "docs/glossary/pointer-chasing.md",
     "docs/glossary/cache-line.md",
