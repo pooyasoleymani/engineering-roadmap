@@ -1,4 +1,4 @@
-package serach
+package search
 
 func BinarySearch(item int, arr []int) int {
 	length := len(arr)
