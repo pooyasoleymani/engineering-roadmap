@@ -8,12 +8,13 @@ Temporal locality means recently accessed data is likely to be accessed again.
 
 ## Example
 
+```go
 counter++
 
 counter++
 
 counter++
-
+```
 ---
 
 ## Benefit

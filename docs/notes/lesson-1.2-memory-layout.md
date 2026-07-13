@@ -124,7 +124,7 @@ Characteristics
 
 # Trade-offs Learned
 
-Array
+#### Array
 
 Advantages
 
@@ -140,7 +140,7 @@ Disadvantages
 
 ---
 
-Linked List
+#### Linked List
 
 Advantages
 
@@ -158,15 +158,15 @@ Disadvantages
 
 # Real-World Examples
 
-Networking
+**Networking**
 
 Ring buffers outperform linked lists for packet processing.
 
-Databases
+**Databases**
 
 B-Trees store keys contiguously inside nodes to reduce disk and cache misses.
 
-Go
+**Go**
 
 Slices are fast because their backing arrays are contiguous.
 
@@ -194,4 +194,4 @@ Sequential memory access can significantly outperform random access due to cache
 
 - How does Go decide stack vs heap allocation?
 - What is escape analysis?
-- How does a CPU prefetch data?
+- How does a CPU prefetch data? [[cpu-prefetch]]

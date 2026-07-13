@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "docs/interview/arrays.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "arrays"
+            }
+          },
+          {
+            "id": "0460890e41e38e4e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/mistakes/array vs link-list.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "array vs link-list"
             }
           }
         ]
@@ -88,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 204.5
   },
   "right": {
     "id": "5eeb0b228988cff3",
@@ -165,13 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "docs/interview/arrays.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of arrays"
             }
           },
           {
@@ -214,19 +238,36 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "bb0faf79d39e3a26",
+  "active": "8e5b1f970161483c",
   "lastOpenFiles": [
-    "ROADMAP.md",
-    "README.md",
-    "cpp/external/catch2/docs/usage-tips.md",
-    "cpp/external/catch2/docs/Readme.md",
-    "cpp/external/catch2/docs/cmake-integration.md",
-    "cpp/external/catch2/docs/why-catch.md",
-    "cpp/external/catch2/docs/test-cases-and-sections.md",
-    "cpp/external/catch2/docs/test-fixtures.md",
+    "docs/mistakes/array vs link-list.md",
+    "docs/notes/lesson-1.4.md",
+    "docs/interview/arrays.md",
+    "docs/interview/binary-search.md",
+    "docs/interview/complexity-analysis.md",
+    "docs/interview/memory-layout.md",
+    "docs/notes/lesson-1.3-arrays.md",
+    "docs/diagrams/lesson-1.3/dynamic-array-growth.md",
+    "docs/diagrams/lesson-1.3/array-layout.md",
+    "docs/diagrams/lesson-1.3/insert-delete.md",
+    "docs/notes/lesson-1.1-complexity-analysis.md",
+    "docs/glossary/dynamic-array.md",
+    "docs/glossary/amortized-analysis.md",
+    "docs/notes/lesson-1.2-memory-layout.md",
+    "docs/glossary/cpu-prefetch.md",
+    "docs/glossary/cache-line.md",
+    "docs/glossary/big-O.md",
+    "docs/glossary/temporal-locality.md",
+    "docs/glossary/stack-memory.md",
+    "docs/glossary/spatial-locality.md",
+    "docs/glossary/cache-locality.md",
+    "docs/glossary/cache-miss.md",
+    "docs/glossary/contiguous-memory.md",
+    "docs/glossary/capacity.md",
+    "docs/diagrams/lesson-1.2/stack-vs-heap.md",
+    "docs/diagrams/lesson-1.2/cpu-cache.md",
     "docs/mistakes",
     "docs/architecture",
-    "benchmarks/memory/array-vs-linked-list.md",
     "computer-sience/algorithms/distributed-systems",
     "computer-sience/databases",
     "computer-sience/operating-systems",
@@ -235,23 +276,6 @@
     "computer-sience/algorithms/searching/linear-search/linear_search_test.go",
     "computer-sience/algorithms/searching/linear-search/linear_search.go",
     "computer-sience/algorithms/searching/linear-search/benchmark_test.go",
-    "computer-sience/algorithms/searching/linear-search/README.md",
-    "computer-sience/algorithms/searching/binary-search/README.md",
-    "computer-sience/algorithms/README.md",
-    "cpp/external/catch2/docs/tutorial.md",
-    "cpp/external/catch2/docs/tostring.md",
-    "cpp/external/catch2/docs/thread-safety.md",
-    "cpp/external/catch2/docs/skipping-passing-failing.md",
-    "cpp/external/catch2/docs/reporters.md",
-    "cpp/external/catch2/docs/reporter-events.md",
-    "cpp/external/catch2/docs/release-process.md",
-    "cpp/external/catch2/docs/release-notes.md",
-    "cpp/external/catch2/docs/own-main.md",
-    "cpp/external/catch2/docs/other-macros.md",
-    "cpp/external/catch2/docs/opensource-users.md",
-    "cpp/external/catch2/docs/migrate-v2-to-v3.md",
-    "cpp/external/catch2/docs/matchers.md",
-    "cpp/external/catch2/docs/logging.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",

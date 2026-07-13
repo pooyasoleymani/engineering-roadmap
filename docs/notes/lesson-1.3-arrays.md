@@ -88,8 +88,110 @@ Complexity:
 O(n)
 ```
 
+---
+## Arrays in Different Languages
+
+### Go
+
+```
+var arr [5]int
+```
+
+Fixed size.
 
 ---
+
+Slice
+
+```
+s := []int{1,2,3}
+```
+
+Actually
+
+```
+Pointer
+
+Length
+
+Capacity
+```
+
+pointing to an underlying array.
+
+---
+
+### Python
+
+```
+list
+```
+
+Despite the name, it is **not** a linked list.
+
+It is a dynamic array.
+
+Many programmers don't realize this.
+
+---
+
+### C++
+
+```
+std::vector
+```
+
+Dynamic array.
+
+---
+
+Notice something interesting.
+
+Three very different languages...
+
+Same underlying data structure.
+
+---
+## Static vs Dynamic Arrays
+
+Static
+
+```
+Capacity fixed forever
+```
+
+Advantages
+
+- Simple
+- Fast
+- No reallocations
+
+Disadvantages
+
+- Wasted memory
+- Cannot grow
+
+---
+
+Dynamic
+
+```
+Grow when needed
+```
+
+Advantages
+
+- Flexible
+
+Disadvantages
+
+- Occasionally reallocates
+
+We'll study growth algorithms in [[lesson-1.4]].
+
+
+---
+
 ## Dynamic Arrays
 
 Dynamic array is a array that can insert and delete element dynamically.
@@ -232,3 +334,28 @@ This is why many high-performance networking systems use arrays or ring buffers.
 |Memory Overhead|Low|Higher (pointer per node)|
 
 Notice that complexity alone doesn't determine the better choice.
+
+
+---
+
+## Engineering Insight
+
+Suppose you're designing a telecom message queue.
+
+You expect:
+
+- 8 million messages per second
+- Sequential processing
+- FIFO behavior
+- Minimal latency
+
+Would you choose:
+
+- Linked list
+- Dynamic array
+- Ring buffer
+
+A senior engineer quickly narrows this to a **ring buffer backed by an array** because it minimizes allocations, maximizes cache locality, and provides predictable memory access patterns.
+
+
+---

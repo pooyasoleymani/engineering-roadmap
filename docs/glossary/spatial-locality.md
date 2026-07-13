@@ -10,7 +10,9 @@ Spatial locality means that memory locations near recently accessed memory are l
 
 Array traversal
 
+```go
 for i := range arr
+```
 
 ---
 
