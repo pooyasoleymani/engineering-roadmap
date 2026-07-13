@@ -15,5 +15,5 @@ func NewArray(size uint64) *Array {
 }
 
 func (a *Array) Insert(index uint64, value int) error {
-	
+	return nil
 }
