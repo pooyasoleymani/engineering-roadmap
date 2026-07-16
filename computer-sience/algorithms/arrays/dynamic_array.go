@@ -50,6 +50,6 @@ func (a *DynamicArray[T]) shiftRigth(index int) {
 		if length == a.capacity {
 			a.reAlloc()
 		}
-		
+		 n
 	}
 }
