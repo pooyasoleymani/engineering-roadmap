@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/notes/lesson-1.3-arrays.md",
+                "file": "docs/glossary/spatial-locality.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lesson-1.3-arrays"
+              "title": "spatial-locality"
             }
           },
           {
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/lesson-1.3-arrays.md",
+                "file": "docs/glossary/spatial-locality.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lesson-1.3-arrays"
+              "title": "Outline of spatial-locality"
             }
           },
           {
@@ -247,8 +247,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -265,6 +264,8 @@
   },
   "active": "8e5b1f970161483c",
   "lastOpenFiles": [
+    "docs/glossary/stack-memory.md",
+    "docs/notes/lesson-1.3-arrays.md",
     "python/arrays/array.py",
     "python/arrays",
     "cpp/build/CMakeFiles/Progress/2",
@@ -275,8 +276,6 @@
     "cpp/build/CMakeFiles/Progress",
     "cpp/build/CMakeFiles/array.dir/compiler_depend.internal.tmpbd4cc",
     "cpp/build/CMakeFiles/array.dir/compiler_depend.make.tmp583b2",
-    "cpp/build/CMakeFiles/array.dir/compiler_depend.internal.tmpa6a47",
-    "docs/notes/lesson-1.3-arrays.md",
     "docs/glossary/prefetching.md",
     "docs/glossary/pointer-chasing.md",
     "docs/glossary/cache-line.md",
