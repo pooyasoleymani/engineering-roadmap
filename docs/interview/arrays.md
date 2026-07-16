@@ -16,7 +16,11 @@ Why are arrays contiguous?
 
 ## A
 
-Array design like memory layout   
+- constant-time indexing
+- CPU prefetching
+- cache locality
+- minimal metadata
+- simple address calculation
 
 
 ## Q
@@ -50,7 +54,14 @@ Because CPU can predict address of every index of array and can use cache line ,
 When would you deliberately choose a linked list?
 
 ## A
-i don't know
+
+- implementing intrusive lists inside kernels
+- LRU cache implementations
+- constant-time insertion/removal when the node is already known
+- memory allocators
+- some lock-free algorithms
+
+Even the Linux kernel uses linked lists selectively because it controls memory layout carefully.
 
 
 ## Q
@@ -60,3 +71,13 @@ Why do most standard libraries implement dynamic arrays?
 ## A
 
 because array close to hardware and its cache friendly, and use hardware prefetching 
+
+
+---
+## Mentor Challenge
+
+Why doesn't Go expose the capacity of an array, but it does expose the capacity of a slice?
+
+## A
+
+Arrays have a compile-time fixed size, so "capacity" is identical to "length" and never changes. Slices are dynamic views over arrays, so Go exposes capacity because it determines whether append can reuse the existing backing array or must allocate a new one.
