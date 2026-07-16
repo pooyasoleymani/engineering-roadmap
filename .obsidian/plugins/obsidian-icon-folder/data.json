@@ -6,11 +6,6 @@
     "emojiStyle": "native",
     "iconColor": null,
     "recentlyUsedIcons": [
-      "FabMicrosoft",
-      "LiDatabase",
-      "🏗",
-      "LiListFilterPlus",
-      "LiComputer",
       "LiExperiment",
       "LiCode",
       "FabGolang",
@@ -24,7 +19,7 @@
       "LiDiff",
       "LiWorkflow"
     ],
-    "recentlyUsedIconsSize": 25,
+    "recentlyUsedIconsSize": 12,
     "rules": [],
     "extraMargin": {
       "top": 0,
@@ -63,10 +58,5 @@
   "templates": "LiBookTemplate",
   "go": "FabGolang",
   "cpp": "LiCode",
-  "experiments": "LiExperiment",
-  "computer-sience": "LiComputer",
-  "computer-sience/algorithms": "LiListFilterPlus",
-  "computer-sience/data-structures": "🏗",
-  "computer-sience/databases": "LiDatabase",
-  "computer-sience/operating-systems": "FabMicrosoft"
+  "experiments": "LiExperiment"
 }

@@ -16,7 +16,7 @@ Why are arrays contiguous?
 
 ## A
 
-Array 
+Array design like memory layout   
 
 
 ## Q
@@ -25,7 +25,7 @@ Why are Python lists not linked lists?
 
 ## A
 
-Because it have capacity 
+Because it have capacity and use index to access the elements without iteration
 
 
 ## Q
@@ -58,4 +58,5 @@ i don't know
 Why do most standard libraries implement dynamic arrays?
 
 ## A
+
 because array close to hardware and its cache friendly, and use hardware prefetching 
