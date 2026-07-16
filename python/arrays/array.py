@@ -1,7 +1,10 @@
-from typing import List, Sequence, Optional, Any
+from __future__ import annotations
+from typing import List, Sequence, Optional, Any, TypeVar
 
 
-class DynamicArray[T](Sequence[T]):
+T = TypeVar("T")
+
+class DynamicArray(Sequence[T]):
     def __init__(self, items: Optional[Sequence[T]]=None , *args) -> None:
         self.items: Sequence[T] = []
         if (items is not None) and len(self.items) < 8:
@@ -10,6 +13,9 @@ class DynamicArray[T](Sequence[T]):
             self.items.append(arg)
 
         self.size = len(self.items)
+    
+    def __contains__(self, value):
+        return value in self.items
     
     def append(self, item: T):
         if self.size == self.capacity:

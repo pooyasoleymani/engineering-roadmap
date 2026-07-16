@@ -1,7 +1,7 @@
 package arrays
 
 type DynamicArray[T any] struct {
-	lentgh   int
+	length   int
 	capacity int
 	elemets  []T
 }
@@ -11,14 +11,14 @@ func NewDynamicArray[T any](capacity int) *DynamicArray[T] {
 		capacity = 1
 	}
 	return &DynamicArray[T]{
-		lentgh:   0,
+		length:   0,
 		capacity: capacity,
 		elemets:  make([]T, capacity),
 	}
 }
 
 func (a *DynamicArray[T]) Len() int {
-	return a.lentgh
+	return a.length
 }
 
 func (a *DynamicArray[T]) Capacity() int {
@@ -26,13 +26,30 @@ func (a *DynamicArray[T]) Capacity() int {
 }
 
 func (a *DynamicArray[T]) Push(value T) {
-	if a.lentgh == a.capacity {
-		a.capacity *= 2
-		a.elemets = make([]T, a.capacity)
+	if a.length == a.capacity {
+		a.reAlloc()
 	}
-	a.elemets[a.lentgh] = value
+	a.elemets[a.length] = value
+}
+
+func (a *DynamicArray[T]) reAlloc() {
+	a.capacity *= 2
+	newArray := make([]T, a.capacity)
+	copy(newArray, a.elemets)
+	a.elemets = newArray
+
 }
 
 func (a *DynamicArray[T]) Insert(index int, value T) error {
 	return nil
+}
+
+func (a *DynamicArray[T]) shiftRigth(index int) {
+	length := a.length
+	for i := length; i > index; i-- {
+		if length == a.capacity {
+			a.reAlloc()
+		}
+		
+	}
 }
