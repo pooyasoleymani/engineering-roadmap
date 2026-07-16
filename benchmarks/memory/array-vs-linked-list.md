@@ -2,7 +2,7 @@
 
 Hardware
 
-Intel Core i5-4200U
+Intel Core `i5-4200U`
 
 OS
 

@@ -1,4 +1,4 @@
-package serach
+package search
 
 import "testing"
 

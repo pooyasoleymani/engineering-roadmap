@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "84fb9cbc8bc6d9b6",
+            "id": "0460890e41e38e4e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/glossary/cache-line.md",
+                "file": "docs/mistakes/array vs link-list.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,31 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "cache-line"
-            }
-          },
-          {
-            "id": "261b526336bcd212",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/glossary/prefetching.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "prefetching"
+              "title": "array vs link-list"
             }
           }
         ]
@@ -136,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 204.5
   },
   "right": {
     "id": "5eeb0b228988cff3",
@@ -228,8 +204,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -284,21 +260,36 @@
     "docs/diagrams/lesson-1.3/insert-delete.md",
     "docs/diagrams/lesson-1.3/dynamic-array-growth.md",
     "docs/diagrams/lesson-1.3/array-layout.md",
-    "docs/README.md",
-    "docs/notes/lesson-1.2-memory-layout.md",
-    "docs/interview/binary-search.md",
-    "docs/interview/arrays.md",
+    "docs/diagrams/lesson-1.3/insert-delete.md",
+    "docs/notes/lesson-1.1-complexity-analysis.md",
     "docs/glossary/dynamic-array.md",
+    "docs/glossary/amortized-analysis.md",
+    "docs/notes/lesson-1.2-memory-layout.md",
+    "docs/glossary/cpu-prefetch.md",
+    "docs/glossary/cache-line.md",
+    "docs/glossary/big-O.md",
+    "docs/glossary/temporal-locality.md",
+    "docs/glossary/stack-memory.md",
+    "docs/glossary/spatial-locality.md",
+    "docs/glossary/cache-locality.md",
+    "docs/glossary/cache-miss.md",
     "docs/glossary/contiguous-memory.md",
     "docs/glossary/capacity.md",
-    "docs/notes/lesson-1.1-complexity-analysis.md",
-    "docs/glossary/cache-miss.md",
-    "docs/glossary/cache-locality.md",
-    "docs/glossary/big-O.md",
-    "docs/glossary/amortized-analysis.md",
     "docs/diagrams/lesson-1.2/stack-vs-heap.md",
-    "docs/diagrams/lesson-1.2/pointer-chasing.md",
-    "docs/diagrams/lesson-1.2/memory-hierarchy.md",
-    "docs/diagrams/lesson-1.2/cpu-cache.md"
+    "docs/diagrams/lesson-1.2/cpu-cache.md",
+    "docs/mistakes",
+    "docs/architecture",
+    "computer-sience/algorithms/distributed-systems",
+    "computer-sience/databases",
+    "computer-sience/operating-systems",
+    "computer-sience/data-structures",
+    "computer-sience/data-structure",
+    "computer-sience/algorithms/searching/linear-search/linear_search_test.go",
+    "computer-sience/algorithms/searching/linear-search/linear_search.go",
+    "computer-sience/algorithms/searching/linear-search/benchmark_test.go",
+    "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
+    "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
+    "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
+    "cpp/external/catch2/data/artwork/catch2-c-logo.svg"
   ]
 }
