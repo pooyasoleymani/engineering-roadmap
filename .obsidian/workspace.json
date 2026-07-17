@@ -13,6 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "docs/glossary/pointer-chasing.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "pointer-chasing"
+            }
+          },
+          {
+            "id": "84fb9cbc8bc6d9b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "docs/interview/arrays.md",
                 "mode": "source",
                 "source": false,
@@ -29,30 +53,6 @@
               },
               "icon": "lucide-file",
               "title": "arrays"
-            }
-          },
-          {
-            "id": "84fb9cbc8bc6d9b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/glossary/cache-line.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "cache-line"
             }
           },
           {
@@ -79,7 +79,8 @@
               "title": "prefetching"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -263,8 +264,25 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "3c660572df5ae446",
+  "active": "84fb9cbc8bc6d9b6",
   "lastOpenFiles": [
+    "docs/glossary/cache-line.md",
+    "docs/glossary/pointer-chasing.md",
+    "docs/glossary/prefetching.md",
+    "docs/glossary/cpu-prefetch.md",
+    "ROADMAP.md",
+    "README.md",
+    "templates/Glossary.md",
+    "templates/Lesson.md",
+    "templates/Projects.md",
+    "docs/cheatsheets",
+    "docs/architecture",
+    "docs/glossary/heap-memory.md",
+    "docs/glossary/stack-memory.md",
+    "docs/glossary/dynamic-array.md",
+    "docs/glossary/amortized-analysis.md",
+    "docs/README.md",
+    "docs/interview/arrays.md",
     "cpp/external/catch2/tools/scripts/checkDuplicateFilenames.py",
     "cpp/external/catch2/tools/scripts/minorRelease.py",
     "cpp/external/catch2/tools/scripts/updateDocumentToC.py",
@@ -273,9 +291,6 @@
     "cpp/external/catch2/tools/scripts/patchRelease.py",
     "cpp/external/catch2/tools/scripts/releaseCommon.py",
     "cpp/external/catch2/tools/scripts/majorRelease.py",
-    "cpp/external/catch2/tools/scripts/generateAmalgamatedFiles.py",
-    "cpp/external/catch2/tools/scripts/fixWhitespace.py",
-    "cpp/external/catch2/tools/scripts/extractFeaturesFromReleaseNotes.py",
     "cpp/external/catch2/docs/why-catch.md",
     "cpp/external/catch2/docs/usage-tips.md",
     "cpp/external/catch2/docs/tutorial.md",
@@ -287,20 +302,6 @@
     "cpp/external/catch2/docs/skipping-passing-failing.md",
     "cpp/external/catch2/docs/own-main.md",
     "cpp/external/catch2/docs/reporters.md",
-    "cpp/external/catch2/docs/reporter-events.md",
-    "cpp/external/catch2/docs/other-macros.md",
-    "cpp/external/catch2/docs/opensource-users.md",
-    "cpp/external/catch2/docs/release-notes.md",
-    "cpp/external/catch2/docs/migrate-v2-to-v3.md",
-    "cpp/external/catch2/docs/event-listeners.md",
-    "cpp/external/catch2/docs/filtering-execution-path.md",
-    "cpp/external/catch2/docs/limitations.md",
-    "cpp/external/catch2/docs/matchers.md",
-    "cpp/external/catch2/docs/logging.md",
-    "cpp/external/catch2/docs/list-of-examples.md",
-    "cpp/external/catch2/docs/generators.md",
-    "cpp/external/catch2/docs/comparing-floating-point-numbers.md",
-    "cpp/external/catch2/docs/faq.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",

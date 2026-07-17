@@ -25,7 +25,7 @@ engineering-roadmap/
 │   └── references/
 │   
 │
-├── algorithms/
+├── computer-sience/
 │
 ├── go/
 │
@@ -87,5 +87,5 @@ Books
 
 Current Stage
 
-Week 1
-Lesson 1.3
+Week 2
+Lesson 1.4

@@ -6,8 +6,8 @@ Week 1
 
 ✔ Lesson 1.2
 
-□ Lesson 1.3
+✔ Lesson 1.3
 
 Week 2
 
-...
+ Lesson 1.4
