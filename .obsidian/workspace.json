@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/notes/lesson-1.3-arrays.md",
+                "file": "docs/notes/lesson-1.4-Dynamic Arrays & Amortized Growth.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lesson-1.3-arrays"
+              "title": "lesson-1.4-Dynamic Arrays & Amortized Growth"
             }
           },
           {
@@ -214,13 +214,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/lesson-1.3-arrays.md",
+                "file": "docs/notes/lesson-1.4-Dynamic Arrays & Amortized Growth.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lesson-1.3-arrays"
+              "title": "Outline of lesson-1.4-Dynamic Arrays & Amortized Growth"
             }
           },
           {
@@ -266,6 +266,16 @@
   },
   "active": "84fb9cbc8bc6d9b6",
   "lastOpenFiles": [
+    "docs/notes/lesson-1.3-arrays.md",
+    "docs/notes/lesson-1.4-Dynamic Arrays & Amortized Growth.md",
+    "docs/diagrams/lesson-1.3/array-layout.md",
+    "docs/diagrams/lesson-1.3/dynamic-array-growth.md",
+    "docs/glossary/capacity.md",
+    "cpp/external/catch2/docs/list-of-examples.md",
+    "docs/notes/lesson-1.5-binary-search.md",
+    "templates/Lesson.md",
+    "docs/notes/lesson-1.2-memory-layout.md",
+    "docs/notes/lesson-1.1-complexity-analysis.md",
     "docs/diagrams/lesson-1.2/cpu-cache.md",
     "docs/diagrams/lesson-1.1/complexity-chart.md",
     "docs/interview/arrays.md",
@@ -276,7 +286,6 @@
     "ROADMAP.md",
     "README.md",
     "templates/Glossary.md",
-    "templates/Lesson.md",
     "templates/Projects.md",
     "docs/cheatsheets",
     "docs/architecture",
@@ -293,15 +302,6 @@
     "cpp/external/catch2/tools/scripts/patchRelease.py",
     "cpp/external/catch2/tools/scripts/releaseCommon.py",
     "cpp/external/catch2/tools/scripts/majorRelease.py",
-    "cpp/external/catch2/docs/why-catch.md",
-    "cpp/external/catch2/docs/usage-tips.md",
-    "cpp/external/catch2/docs/tutorial.md",
-    "cpp/external/catch2/docs/tostring.md",
-    "cpp/external/catch2/docs/release-process.md",
-    "cpp/external/catch2/docs/thread-safety.md",
-    "cpp/external/catch2/docs/test-fixtures.md",
-    "cpp/external/catch2/docs/test-cases-and-sections.md",
-    "cpp/external/catch2/docs/skipping-passing-failing.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",

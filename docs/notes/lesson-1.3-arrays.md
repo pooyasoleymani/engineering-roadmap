@@ -1,5 +1,8 @@
 ---
 Date: 2026-07-08
+tags:
+  - software_engineering
+Next: "[[lesson-1.4-Dynamic Arrays & Amortized Growth]]"
 ---
 ---
 # Objectives
@@ -18,13 +21,20 @@ Date: 2026-07-08
 ---
 # Summary
 
-Every high performance system build with array
+> Every high performance system build with array
 
+- Arrays store elements in contiguous memory.
+- Indexing is `O(1)` because the CPU calculates addresses directly.
+- Insertion and deletion are `O(n)` because elements must be shifted.
+- Dynamic arrays grow by allocating a larger array and copying existing elements.
+- Go slices, Python lists, and C++ `std::vector` are all dynamic arrays.
+- In production systems, arrays are often preferred because they make efficient use of CPU caches and memory.
 
 ---
 ## Array
 
 An array is a **contiguous block of memory** containing elements of the same type.
+Each element occupies a fixed amount of memory, allowing the CPU to calculate an element's address directly.
 
 Example:
 ```text
@@ -35,6 +45,34 @@ Address: 1000 1008 1016 1024 1032
 
 ---
 
+# Why Arrays Exist
+
+Arrays solve one important problem:
+
+> **Provide constant-time random access to elements.**
+
+Without arrays, accessing the 1000th element would require traversing all previous elements.
+
+Arrays allow the CPU to compute the address directly.
+
+---
+
+# Memory Layout
+
+Arrays are stored in **contiguous memory**.
+
+```
++----+----+----+----+----+
+| 8  | 2  | 5  | 9  | 1  |
++----+----+----+----+----+
+```
+
+Each element has the same size.
+
+If the element type is `int64`, every element occupies **8 bytes**.
+
+
+---
 ## Address Calculation
 
 CPU can Compute address of array directly and no search is required.
@@ -51,6 +89,20 @@ arr[4] -> 1000 + 4 * 8
 
 ---
 
+# Operations
+
+## Read
+
+```
+arr[5]
+```
+
+Complexity:
+
+```
+O(1)
+```
+
 ## Insertion
 
 For insert into the array every element must move one position.
@@ -61,6 +113,12 @@ Example: Insert 99 at index 2
 arr : 1 2 3 4 5
 element move: 3 4 5
 arr : 1 2 99 3 4 5 
+```
+
+Complexity:
+
+```text
+O(n)
 ```
 
 ---
@@ -89,8 +147,17 @@ O(n)
 ```
 
 ---
-## Arrays in Different Languages
+# Arrays in Different Languages
 
+| Language | Implementation         |
+| -------- | ---------------------- |
+| Go       | Array + Slice          |
+| Python   | Dynamic Array (`list`) |
+| C++      | `std::vector`          |
+| Java     | `ArrayList`            |
+| Rust     | `Vec<T>`               |
+
+Although these languages expose different APIs, they all rely on the same underlying concept.
 ### Go
 
 ```
@@ -131,7 +198,6 @@ Despite the name, it is **not** a linked list.
 
 It is a dynamic array.
 
-Many programmers don't realize this.
 
 ---
 
@@ -187,7 +253,7 @@ Disadvantages
 
 - Occasionally reallocates
 
-We'll study growth algorithms in [[lesson-1.4]].
+We'll study growth algorithms in [[lesson-1.4-Dynamic Arrays & Amortized Growth]].
 
 
 ---
@@ -195,6 +261,18 @@ We'll study growth algorithms in [[lesson-1.4]].
 ## Dynamic Arrays
 
 Dynamic array is a array that can insert and delete element dynamically.
+
+A dynamic array automatically grows when capacity is exhausted.
+
+Advantages:
+
+- Flexible size
+- Efficient append operations
+
+Disadvantages:
+
+- Occasional reallocation
+- Copying existing elements during growth
 Suppose capacity:
 
 ```
@@ -359,3 +437,11 @@ A senior engineer quickly narrows this to a **ring buffer backed by an array** b
 
 
 ---
+# Common Mistakes
+
+- Believing Python lists are linked lists.
+- Assuming `O(1)` always means "fast."
+- Ignoring cache locality.
+- Using linked lists for workloads that require frequent iteration.
+- Forgetting that insertion requires shifting elements.
+

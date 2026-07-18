@@ -1,5 +1,8 @@
 ---
 Date: 2026-07-04
+tags:
+  - software_engineering
+Next: "[[lesson-1.3-arrays]]"
 ---
 
 
