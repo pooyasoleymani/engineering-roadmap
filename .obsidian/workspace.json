@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/interview/arrays.md",
+                "file": "docs/notes/lesson-1.3-arrays.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "arrays"
+              "title": "lesson-1.3-arrays"
             }
           },
           {
@@ -214,13 +214,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/interview/arrays.md",
+                "file": "docs/notes/lesson-1.3-arrays.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of arrays"
+              "title": "Outline of lesson-1.3-arrays"
             }
           },
           {
@@ -266,6 +266,9 @@
   },
   "active": "84fb9cbc8bc6d9b6",
   "lastOpenFiles": [
+    "docs/diagrams/lesson-1.2/cpu-cache.md",
+    "docs/diagrams/lesson-1.1/complexity-chart.md",
+    "docs/interview/arrays.md",
     "docs/glossary/cache-line.md",
     "docs/glossary/pointer-chasing.md",
     "docs/glossary/prefetching.md",
@@ -282,7 +285,6 @@
     "docs/glossary/dynamic-array.md",
     "docs/glossary/amortized-analysis.md",
     "docs/README.md",
-    "docs/interview/arrays.md",
     "cpp/external/catch2/tools/scripts/checkDuplicateFilenames.py",
     "cpp/external/catch2/tools/scripts/minorRelease.py",
     "cpp/external/catch2/tools/scripts/updateDocumentToC.py",
@@ -300,8 +302,6 @@
     "cpp/external/catch2/docs/test-fixtures.md",
     "cpp/external/catch2/docs/test-cases-and-sections.md",
     "cpp/external/catch2/docs/skipping-passing-failing.md",
-    "cpp/external/catch2/docs/own-main.md",
-    "cpp/external/catch2/docs/reporters.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
