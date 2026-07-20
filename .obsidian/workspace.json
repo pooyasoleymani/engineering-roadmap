@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/glossary/prefetching.md",
+                "file": "benchmarks/memory/array-vs-linked-list.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "prefetching"
+              "title": "array-vs-linked-list"
             }
           }
         ],
@@ -190,13 +190,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/glossary/prefetching.md",
+                "file": "benchmarks/memory/array-vs-linked-list.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of prefetching"
+              "title": "Outline of array-vs-linked-list"
             }
           },
           {
@@ -242,6 +242,19 @@
   },
   "active": "261b526336bcd212",
   "lastOpenFiles": [
+    "computer-sience/algorithms/arrays/benchmark_test.go",
+    "computer-sience/algorithms/arrays/benchmark_array_vs_linked_list.go",
+    "computer-sience/algorithms/arrays/array_vs_linked_list_benchmark.go",
+    "benchmarks/memory/array_vs_linked_list_benchmark.go",
+    "books/efficient-go/chapter-01.md",
+    "books/README.md",
+    "books/efficient-go/key-takeaways.md",
+    "books/efficient-go/summary.md",
+    "books/efficient-go/questions.md",
+    "docs/diagrams/lesson-1.3/insert-delete.md",
+    "docs/diagrams/lesson-1.3/array-layout.md",
+    "docs/diagrams/lesson-1.3/dynamic-array-growth.md",
+    "docs/glossary/prefetching.md",
     "docs/notes/lesson-1.4.md",
     "docs/notes/lesson-1.3-arrays.md",
     "docs/diagrams/lesson-1.2/cpu-cache.md",
@@ -249,7 +262,6 @@
     "docs/interview/arrays.md",
     "docs/glossary/cache-line.md",
     "docs/glossary/pointer-chasing.md",
-    "docs/glossary/prefetching.md",
     "docs/glossary/cpu-prefetch.md",
     "ROADMAP.md",
     "README.md",
@@ -261,23 +273,11 @@
     "docs/glossary/heap-memory.md",
     "docs/glossary/stack-memory.md",
     "docs/glossary/dynamic-array.md",
-    "docs/glossary/amortized-analysis.md",
-    "docs/README.md",
     "cpp/external/catch2/tools/scripts/checkDuplicateFilenames.py",
     "cpp/external/catch2/tools/scripts/minorRelease.py",
     "cpp/external/catch2/tools/scripts/updateDocumentToC.py",
     "cpp/external/catch2/tools/scripts/updateDocumentSnippets.py",
     "cpp/external/catch2/tools/scripts/scriptCommon.py",
-    "cpp/external/catch2/tools/scripts/patchRelease.py",
-    "cpp/external/catch2/tools/scripts/releaseCommon.py",
-    "cpp/external/catch2/tools/scripts/majorRelease.py",
-    "cpp/external/catch2/docs/why-catch.md",
-    "cpp/external/catch2/docs/usage-tips.md",
-    "cpp/external/catch2/docs/tutorial.md",
-    "cpp/external/catch2/docs/tostring.md",
-    "cpp/external/catch2/docs/release-process.md",
-    "cpp/external/catch2/docs/thread-safety.md",
-    "cpp/external/catch2/docs/test-fixtures.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
