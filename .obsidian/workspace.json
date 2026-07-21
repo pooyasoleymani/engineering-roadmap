@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/glossary/cpu-prefetch.md",
+                "file": "docs/interview/dynamic-arrays-amortized-growth.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "cpu-prefetch"
+              "title": "dynamic-arrays-amortized-growth"
             }
           },
           {
@@ -112,7 +112,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 255.5
   },
   "right": {
     "id": "5eeb0b228988cff3",
@@ -189,13 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/glossary/cpu-prefetch.md",
+                "file": "docs/interview/dynamic-arrays-amortized-growth.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of cpu-prefetch"
+              "title": "Outline of dynamic-arrays-amortized-growth"
             }
           },
           {
@@ -223,7 +223,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,9 +241,14 @@
   },
   "active": "8e5b1f970161483c",
   "lastOpenFiles": [
+    "docs/interview/arrays.md",
+    "docs/interview/dynamic-arrays-amortized-growth.md",
+    "docs/interview/binary-search.md",
+    "docs/interview/memory-layout.md",
+    "docs/interview/complexity-analysis.md",
+    "docs/glossary/cpu-prefetch.md",
     "docs/glossary/pointer-chasing.md",
     "docs/README.md",
-    "docs/glossary/cpu-prefetch.md",
     "docs/glossary/dynamic-array.md",
     "docs/glossary/heap-memory.md",
     "docs/glossary/contiguous-memory.md",
@@ -265,11 +271,6 @@
     "books/efficient-go/questions.md",
     "docs/notes/lesson-1.4.md",
     "docs/diagrams/lesson-1.2/cpu-cache.md",
-    "docs/diagrams/lesson-1.1/complexity-chart.md",
-    "docs/interview/arrays.md",
-    "docs/glossary/cache-line.md",
-    "ROADMAP.md",
-    "README.md",
     "docs/cheatsheets",
     "docs/architecture",
     "cpp/external/catch2/tools/scripts/checkDuplicateFilenames.py",
