@@ -108,3 +108,28 @@ func (a *DynamicArray[T]) Remove(index int) {
 func (a *DynamicArray[T]) Get(index int) T {
 	return a.elemets[index]
 }
+
+func (a *DynamicArray[T]) Clear() {
+	a.elemets = make([]T, a.capacity)
+	a.length = 0
+}
+
+func (a *DynamicArray[T]) IsEmpty() bool {
+	return a.length == 0
+}
+
+func (a *DynamicArray[T]) Reserve(capacity int) {
+	if a.capacity < capacity {
+		newArray := make([]T, capacity)
+		copy(newArray, a.elemets)
+		a.elemets = newArray
+	}
+}
+
+func (a *DynamicArray[T]) ShrinkToFit() {
+	if a.length != a.capacity {
+		newArray := make([]T, a.length)
+		copy(newArray, a.elemets)
+		a.elemets = newArray
+	}
+}

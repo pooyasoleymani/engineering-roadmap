@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/interview/dynamic-arrays-amortized-growth.md",
+                "file": "docs/glossary/cpu-prefetch.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "dynamic-arrays-amortized-growth"
+              "title": "cpu-prefetch"
             }
           },
           {
@@ -189,13 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/interview/dynamic-arrays-amortized-growth.md",
+                "file": "docs/glossary/cpu-prefetch.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of dynamic-arrays-amortized-growth"
+              "title": "Outline of cpu-prefetch"
             }
           },
           {
@@ -238,19 +238,19 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "8e5b1f970161483c",
+  "active": "3c660572df5ae446",
   "lastOpenFiles": [
+    "docs/interview/arrays.md",
+    "docs/interview/memory-layout.md",
+    "docs/interview/binary-search.md",
+    "docs/interview/complexity-analysis.md",
+    "docs/interview/dynamic-arrays-amortized-growth.md",
     "computer-sience/algorithms/arrays/__debug_bin2585435399",
     "computer-sience/algorithms/arrays/__debug_bin1335938982",
     "computer-sience/algorithms/arrays/__debug_bin2585014251",
     "computer-sience/algorithms/arrays/__debug_bin3914719971",
     "benchmarks/memory/array-with-built-in-copy.md",
     "benchmarks/memory/array-with-built-in-copy.go",
-    "docs/interview/arrays.md",
-    "docs/interview/dynamic-arrays-amortized-growth.md",
-    "docs/interview/binary-search.md",
-    "docs/interview/memory-layout.md",
-    "docs/interview/complexity-analysis.md",
     "docs/glossary/cpu-prefetch.md",
     "docs/glossary/pointer-chasing.md",
     "docs/README.md",
@@ -275,7 +275,6 @@
     "books/efficient-go/summary.md",
     "books/efficient-go/questions.md",
     "docs/cheatsheets",
-    "docs/architecture",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
