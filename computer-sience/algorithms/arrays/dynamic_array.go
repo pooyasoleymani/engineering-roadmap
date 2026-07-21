@@ -22,7 +22,7 @@ func (a *DynamicArray[T]) Capacity() int {
 }
 
 func (a *DynamicArray[T]) Push(value T) {
-	if a.length == a.capacity {
+	if a.length >= a.capacity {
 		a.reAlloc()
 	}
 	a.elemets[a.length] = value
@@ -39,6 +39,20 @@ func (a *DynamicArray[T]) reAlloc() {
 
 }
 
+func (a *DynamicArray[T]) reAllocWithCopy() {
+	a.capacity *= 2
+	newArray := make([]T, a.capacity)
+	copy(newArray, a.elemets)
+	a.elemets = newArray
+
+}
+
+func (a *DynamicArray[T]) InsertWithCopy(index int, value T) {
+	a.shiftRigth2(index)
+	a.elemets[index] = value
+	a.length++
+}
+
 func (a *DynamicArray[T]) Insert(index int, value T) {
 	a.shiftRigth(index)
 	a.elemets[index] = value
@@ -46,6 +60,16 @@ func (a *DynamicArray[T]) Insert(index int, value T) {
 }
 
 func (a *DynamicArray[T]) shiftRigth(index int) {
+	length := a.length
+	for i := length; i > index; i-- {
+		if length == a.capacity {
+			a.reAllocWithCopy()
+		}
+		a.elemets[i] = a.elemets[i-1]
+	}
+}
+
+func (a *DynamicArray[T]) shiftRigth2(index int) {
 	length := a.length
 	for i := length; i > index; i-- {
 		if length == a.capacity {
@@ -78,4 +102,8 @@ func (a *DynamicArray[T]) Size() int {
 func (a *DynamicArray[T]) Remove(index int) {
 	a.shiftLeft(index)
 	a.length--
+}
+
+func (a *DynamicArray[T]) Get(index int) T {
+	return a.elemets[index]
 }

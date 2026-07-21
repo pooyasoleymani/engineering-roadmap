@@ -54,3 +54,30 @@ func BenchmarkIterateLinkedList(b *testing.B) {
 	_ = result
 
 }
+
+func BenchmarkBuiltinCopyInsert(b *testing.B) {
+	const N = 1_000
+	arr := NewDynamicArray[int](1)
+	arr.Push(1)
+	b.ResetTimer()
+
+	for b.Loop() {
+		for i := 0; i < N; i++ {
+			arr.InsertWithCopy(1, i)
+		}
+	}
+}
+
+func BenchmarkForLoopInsert(b *testing.B) {
+	const N = 1_000
+	arr := NewDynamicArray[int](1)
+	arr.Push(1)
+
+	b.ResetTimer()
+
+	for b.Loop() {
+		for i := 0; i < N; i++ {
+			arr.Insert(1, i)
+		}
+	}
+}
