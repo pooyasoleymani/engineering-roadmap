@@ -33,10 +33,10 @@ The slice should outperform the linked list due to:
 
 ## Measurements
 
-| Structure | ns/op | allocs/op | bytes/op |
-|-----------|------:|----------:|----------:|
-| Slice | | | |
-| Linked List | | | |
+| Structure   | ns/op | allocs/op | bytes/op |
+| ----------- | ----: | --------: | -------: |
+| Slice       |       |           |          |
+| Linked List |       |           |          |
 
 ---
 
