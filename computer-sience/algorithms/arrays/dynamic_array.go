@@ -61,20 +61,21 @@ func (a *DynamicArray[T]) Insert(index int, value T) {
 
 func (a *DynamicArray[T]) shiftRigth(index int) {
 	length := a.length
+	if length >= a.capacity {
+		a.reAlloc()
+	}
 	for i := length; i > index; i-- {
-		if length == a.capacity {
-			a.reAllocWithCopy()
-		}
 		a.elemets[i] = a.elemets[i-1]
 	}
 }
 
 func (a *DynamicArray[T]) shiftRigth2(index int) {
 	length := a.length
+	if length >= a.capacity {
+		a.reAllocWithCopy()
+	}
 	for i := length; i > index; i-- {
-		if length == a.capacity {
-			a.reAlloc()
-		}
+
 		a.elemets[i] = a.elemets[i-1]
 	}
 }

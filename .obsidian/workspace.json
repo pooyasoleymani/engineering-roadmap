@@ -223,8 +223,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,6 +240,10 @@
   },
   "active": "8e5b1f970161483c",
   "lastOpenFiles": [
+    "computer-sience/algorithms/arrays/__debug_bin2585435399",
+    "computer-sience/algorithms/arrays/__debug_bin1335938982",
+    "computer-sience/algorithms/arrays/__debug_bin2585014251",
+    "computer-sience/algorithms/arrays/__debug_bin3914719971",
     "benchmarks/memory/array-with-built-in-copy.md",
     "benchmarks/memory/array-with-built-in-copy.go",
     "docs/interview/arrays.md",
@@ -271,12 +274,8 @@
     "books/efficient-go/key-takeaways.md",
     "books/efficient-go/summary.md",
     "books/efficient-go/questions.md",
-    "docs/notes/lesson-1.4.md",
     "docs/cheatsheets",
     "docs/architecture",
-    "cpp/external/catch2/tools/scripts/checkDuplicateFilenames.py",
-    "cpp/external/catch2/tools/scripts/minorRelease.py",
-    "cpp/external/catch2/tools/scripts/updateDocumentToC.py",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
