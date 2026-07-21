@@ -223,7 +223,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,8 +239,9 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "3c660572df5ae446",
+  "active": "8e5b1f970161483c",
   "lastOpenFiles": [
+    "engineering-roadmap.code-workspace",
     "docs/interview/arrays.md",
     "docs/interview/memory-layout.md",
     "docs/interview/binary-search.md",
