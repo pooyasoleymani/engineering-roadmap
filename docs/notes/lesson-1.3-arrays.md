@@ -20,6 +20,12 @@ Date: 2026-07-08
 
 Every high performance system build with array
 
+- Arrays store elements in contiguous memory.
+- Indexing is `O(1)` because the CPU calculates addresses directly.
+- Insertion and deletion are `O(n)` because elements must be shifted.
+- Dynamic arrays grow by allocating a larger array and copying existing elements.
+- Go slices, Python lists, and C++ `std::vector` are all dynamic arrays.
+- In production systems, arrays are often preferred because they make efficient use of CPU caches and memory.
 
 ---
 ## Array
