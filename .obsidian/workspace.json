@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/glossary/cpu-prefetch.md",
+                "file": "experiments/senior-engineer-discussion/preallocate-vs-non-allocate.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "cpu-prefetch"
+              "title": "preallocate-vs-non-allocate"
             }
           },
           {
@@ -189,13 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/glossary/cpu-prefetch.md",
+                "file": "experiments/senior-engineer-discussion/preallocate-vs-non-allocate.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of cpu-prefetch"
+              "title": "Outline of preallocate-vs-non-allocate"
             }
           },
           {
@@ -223,8 +223,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,6 +240,11 @@
   },
   "active": "8e5b1f970161483c",
   "lastOpenFiles": [
+    "docs/interview/dynamic-arrays-amortized-growth.md",
+    "experiments/senior-engineer-discussion/preallocate-vs-non-allocate.md",
+    "experiments/senior-engineer-discussion",
+    "experiments/README.md",
+    "docs/glossary/cpu-prefetch.md",
     "python/test.py",
     "python/test",
     "engineering-roadmap.code-workspace",
@@ -248,14 +252,12 @@
     "docs/interview/memory-layout.md",
     "docs/interview/binary-search.md",
     "docs/interview/complexity-analysis.md",
-    "docs/interview/dynamic-arrays-amortized-growth.md",
     "computer-sience/algorithms/arrays/__debug_bin2585435399",
     "computer-sience/algorithms/arrays/__debug_bin1335938982",
     "computer-sience/algorithms/arrays/__debug_bin2585014251",
     "computer-sience/algorithms/arrays/__debug_bin3914719971",
     "benchmarks/memory/array-with-built-in-copy.md",
     "benchmarks/memory/array-with-built-in-copy.go",
-    "docs/glossary/cpu-prefetch.md",
     "docs/glossary/pointer-chasing.md",
     "docs/README.md",
     "docs/glossary/dynamic-array.md",
@@ -270,13 +272,9 @@
     "docs/diagrams/lesson-1.3/array-layout.md",
     "benchmarks/memory/array-vs-linked-list.md",
     "computer-sience/algorithms/arrays/benchmark_test.go",
-    "computer-sience/algorithms/arrays/benchmark_array_vs_linked_list.go",
-    "computer-sience/algorithms/arrays/array_vs_linked_list_benchmark.go",
     "books/efficient-go/chapter-01.md",
     "books/README.md",
     "books/efficient-go/key-takeaways.md",
-    "books/efficient-go/summary.md",
-    "books/efficient-go/questions.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",

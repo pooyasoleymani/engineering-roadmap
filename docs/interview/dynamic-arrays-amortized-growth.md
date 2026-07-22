@@ -5,13 +5,11 @@
 
 ## A
 
-Because when reallocation occurs elements in old array copy into the new allocation array .
+1. Allocate a new array.
+2. Copy all existing elements.
+3. Append the new element.
+4. The old array becomes eligible for GC (Go) or deallocation (C++).
 
-complexity:
-
-```text
-O(n)
-``` 
 
 ---
 ## Q
@@ -21,7 +19,7 @@ O(n)
 
 ## A
 
-Most of operation in `append()` have O(1) and when reallocation occurs need to copy all elements this operation have O(n) in average O(1)  
+Although some appends cost O(n) because of resizing, the total cost of many appends grows linearly with the number of inserted elements. Therefore, the amortized cost per append is O(1).
 
 
 
@@ -45,7 +43,8 @@ Go have runtime grows strategy for small array `x2` and for big array `~x1.25` f
 ## A
 
 Python don't use doubling for lower memory fragmentation. (Go and C++ have  shrink to fit)
-
+CPython also tries to keep the allocator happy.
+Growing by 12.5% instead of 100% makes it easier to reuse memory blocks.
 
 ---
 ## Q
@@ -54,7 +53,8 @@ Python don't use doubling for lower memory fragmentation. (Go and C++ have  shri
 
 
 ## A 
-memory fragmentation occurs when memory free between allocated memory and this memory can't use in contiguous memory.
+
+There is enough total free memory, but not enough contiguous memory.
 
 
 ---
@@ -65,7 +65,11 @@ memory fragmentation occurs when memory free between allocated memory and this m
 
 ## A
 
-because preallocate memory no need to reallocation and effect on performance 
+because preallocate memory no need to reallocation and effect on performance .
+- allocations
+- copies
+- GC pressure
+- cache disruption
 
 ---
 ## Q
@@ -75,7 +79,10 @@ because preallocate memory no need to reallocation and effect on performance
 
 ## A
 
-doubling in small array is best strategy and Fast growth
+doubling in small array is best strategy and Fast growth.
+- size unknown
+- rapid growth
+- throughput more important than memory
 
 ---
 ## Q
@@ -85,4 +92,11 @@ doubling in small array is best strategy and Fast growth
 
 ## A
 
-In big size array  and need to lower  memory usage
+In big size array  and need to lower  memory usage.
+- very large slices
+- memory constrained systems
+- embedded systems
+
+
+
+---
