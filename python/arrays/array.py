@@ -9,10 +9,12 @@ class DynamicArray(Sequence[T]):
         self.items: Sequence[T] = []
         if (items is not None) and len(self.items) < 8:
             self.capacity = 8
-        for arg in args:
-            self.items.append(arg)
+        for i,arg in enumerate(args):
+            self.append(arg)
 
         self.size = len(self.items)
+
+
     
     def __contains__(self, value):
         return value in self.items
@@ -20,7 +22,7 @@ class DynamicArray(Sequence[T]):
     def append(self, item: T):
         if self.size == self.capacity:
             self.capacity *=2
-        self.items.append(item)
+        self.items[self.size] = item
 
     def __repr__(self):
         return f"{self.__class__.__name__}({self.items})"
