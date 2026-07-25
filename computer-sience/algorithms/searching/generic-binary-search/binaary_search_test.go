@@ -17,8 +17,8 @@ func ptr[T any](v T) *T {
 
 func TestLowerBuond(t *testing.T) {
 	testCases := tests[int]{
-		{[]int{1, 2, 3, 3}, 3, 3},
-		{[]int{1}, 1, 1},
+		{[]int{1, 2, 3, 3}, 3, 2},
+		{[]int{1}, 1, 0},
 	}
 
 	for _, test := range testCases {
@@ -33,8 +33,8 @@ func TestLowerBuond(t *testing.T) {
 
 func TestUpperBuond(t *testing.T) {
 	testCases := tests[int]{
-		{[]int{1, 2, 3, 3, 5, 7, 9}, 3, 5},
-		{[]int{1}, 1, 1},
+		{[]int{1, 2, 3, 3, 5, 7, 9}, 3, 4},
+		{[]int{1, 1}, 1, 2},
 	}
 
 	for _, test := range testCases {
