@@ -2,7 +2,7 @@
 Date: 2026-07-08
 tags:
   - software_engineering
-Next: "[[lesson-1.4-Dynamic Arrays & Amortized Growth]]"
+Next: "[[lesson-1.4-dynamic-arrays-amortized-growth]]"
 ---
 ---
 # Objectives
@@ -253,7 +253,7 @@ Disadvantages
 
 - Occasionally reallocates
 
-We'll study growth algorithms in [[lesson-1.4-Dynamic Arrays & Amortized Growth]].
+We'll study growth algorithms in [[lesson-1.4-dynamic-arrays-amortized-growth]].
 
 
 ---
