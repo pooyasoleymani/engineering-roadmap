@@ -2,43 +2,42 @@
 
 ## Q
 
-Why isn't Big O enough?
+Why is binary search fundamentally about eliminating impossible regions rather than "finding" an element?
+
+
+## A 
+
+Because binary search about maintaining invariant .
+
+
+---
+
+## Q 
+
+What is a loop invariant?
 
 ## A
 
-Because Big O ignores
+Processor that every time halve  invariant 
 
-- cache locality
-- constant factors
-- branch prediction
-- compiler optimizations
-- memory allocation
-- IO latency
+---
+
+## Q 
+
+Why does `low = mid` sometimes lead to an infinite loop?
+
+
+## A
+
+Because this is wrong invariant condition 
+
 
 ---
 
 ## Q
 
-Why are arrays faster than linked lists?
+ Why do databases rely on `lower_bound` more often than ordinary binary search?
+
 
 ## A
 
-Arrays are contiguous.
-
-CPU cache loads nearby elements together.
-
-Linked lists require pointer chasing.
-
----
-
-## Q
-
-What is amortized analysis?
-
-## A
-
-Average cost over many operations.
-
-Example
-
-Dynamic array append.
