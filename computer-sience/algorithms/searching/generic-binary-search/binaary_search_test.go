@@ -16,33 +16,39 @@ func ptr[T any](v T) *T {
 }
 
 func TestLowerBuond(t *testing.T) {
-	testCases := tests[int]{
-		{[]int{1, 2, 3, 3}, 3, 2},
-		{[]int{1}, 1, 0},
-	}
-
-	for _, test := range testCases {
-
-		got := LowerBound(test.target, test.arr)
-
-		if got != test.value {
-			t.Errorf("expect: %v but got: %v", test.value, got)
+	t.Run("Test Lower Buond [int] ", func(t *testing.T) {
+		testCases := tests[int]{
+			{[]int{1, 2, 3, 3}, 3, 2},
+			{[]int{1}, 1, 0},
 		}
-	}
+
+		for _, test := range testCases {
+
+			got := LowerBound(test.target, test.arr)
+
+			if got != test.value {
+				t.Errorf("expect: %v but got: %v", test.value, got)
+			}
+		}
+	})
+
 }
 
 func TestUpperBuond(t *testing.T) {
-	testCases := tests[int]{
-		{[]int{1, 2, 3, 3, 5, 7, 9}, 3, 4},
-		{[]int{1, 1}, 1, 2},
-	}
-
-	for _, test := range testCases {
-
-		got := UpperBound(test.target, test.arr)
-
-		if got != test.value {
-			t.Errorf("expect: %v but got: %v", test.value, got)
+	t.Run("Test Upper Buond [int]", func(t *testing.T) {
+		testCases := tests[int]{
+			{[]int{1, 2, 3, 3, 5, 7, 9}, 3, 4},
+			{[]int{1, 1}, 1, 2},
 		}
-	}
+
+		for _, test := range testCases {
+
+			got := UpperBound(test.target, test.arr)
+
+			if got != test.value {
+				t.Errorf("expect: %v but got: %v", test.value, got)
+			}
+		}
+	})
+
 }
