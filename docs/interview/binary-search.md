@@ -41,3 +41,39 @@ Because this is wrong invariant condition
 
 ## A
 
+it allows index structures like [[B-tree]] to instantly jump to the start of a range query and perform fast sequential scans
+
+---
+
+## Q
+
+What is a monotonic predicate?
+
+
+## A
+
+it is technical method for answer to question with binary search and Once it becomes true, it stays true.
+
+```text 
+false false false true true true 
+```
+
+---
+
+## Q
+
+Give three real-world optimization problems where binary search can be applied to the answer space.
+
+
+## A
+
+
+- cache size 
+- buffer size 
+- timeout
+- maximum packet size
+- number of servers 
+- compensation level
+
+If answer space is monotonic we can apply with binary search.
+
