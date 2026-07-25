@@ -79,8 +79,7 @@
               "title": "memory-page"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -214,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/glossary/memory-page.md",
+                "file": "docs/interview/binary-search.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of memory-page"
+              "title": "Outline of binary-search"
             }
           },
           {
@@ -264,12 +263,12 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "fc57762d2c440600",
+  "active": "8e5b1f970161483c",
   "lastOpenFiles": [
-    "docs/glossary/heap-memory.md",
-    "docs/glossary/memory-page.md",
-    "docs/glossary/cpu-prefetch.md",
     "docs/README.md",
+    "docs/glossary/memory-page.md",
+    "docs/glossary/heap-memory.md",
+    "docs/glossary/cpu-prefetch.md",
     "docs/interview/binary-search.md",
     "cpp/searching/binary_search.hpp",
     "cpp/searching",

@@ -7,8 +7,7 @@ Why is binary search fundamentally about eliminating impossible regions rather t
 
 ## A 
 
-Because binary search about maintaining invariant .
-
+Binary search works by repeatedly eliminating half of the search space that cannot contain the answer. The loop invariant guarantees that if the answer exists, it always remains inside the current search interval. The invariant is the correctness mechanism; eliminating impossible regions is the strategy.
 
 ---
 
@@ -18,7 +17,7 @@ What is a loop invariant?
 
 ## A
 
-Processor that every time halve  invariant 
+A condition that is true before the loop starts, remains true after every iteration, and is still true when the loop terminates.
 
 ---
 
@@ -29,7 +28,7 @@ Why does `low = mid` sometimes lead to an infinite loop?
 
 ## A
 
-Because this is wrong invariant condition 
+The real reason is **lack of progress**
 
 
 ---
@@ -52,11 +51,19 @@ What is a monotonic predicate?
 
 ## A
 
-it is technical method for answer to question with binary search and Once it becomes true, it stays true.
+A monotonic predicate is a function whose truth value changes only once.
 
-```text 
-false false false true true true 
+Example:
+
 ```
+False
+False
+False
+True
+True
+True
+```
+
 
 ---
 
