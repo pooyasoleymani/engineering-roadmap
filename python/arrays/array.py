@@ -1,5 +1,6 @@
 from __future__ import annotations
 from typing import List, Sequence, Optional, Any, TypeVar
+import bisect
 
 
 T = TypeVar("T")
