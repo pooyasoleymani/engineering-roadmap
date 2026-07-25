@@ -1,5 +1,6 @@
 from __future__ import annotations
 from typing import List, Sequence, Optional, Any, TypeVar
+import bisect
 
 
 T = TypeVar("T")
@@ -9,18 +10,31 @@ class DynamicArray(Sequence[T]):
         self.items: Sequence[T] = []
         if (items is not None) and len(self.items) < 8:
             self.capacity = 8
-        for arg in args:
-            self.items.append(arg)
-
+        for i,arg in enumerate(args):
+            self.append(arg)
         self.size = len(self.items)
+
+    def insert(self, index: int, item: T) -> None:
+        self._shift_right(index)
+        self.items[index] = item
     
-    def __contains__(self, value):
-        return value in self.items
+    
     
     def append(self, item: T):
         if self.size == self.capacity:
             self.capacity *=2
-        self.items.append(item)
+        self.items[self.size] = item
+
+    def _shift_right(self, index: int) -> None:
+        if self.size == self.capacity:
+            self.capacity *= 2
+        i = self.size
+        while i > index:
+            self.items[i+1] = self.items[i]
+            --i
+
+    def __contains__(self, value):
+            return value in self.items
 
     def __repr__(self):
         return f"{self.__class__.__name__}({self.items})"

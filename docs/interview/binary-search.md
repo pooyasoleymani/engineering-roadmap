@@ -2,43 +2,85 @@
 
 ## Q
 
-Why isn't Big O enough?
+Why is binary search fundamentally about eliminating impossible regions rather than "finding" an element?
+
+
+## A 
+
+Binary search works by repeatedly eliminating half of the search space that cannot contain the answer. The loop invariant guarantees that if the answer exists, it always remains inside the current search interval. The invariant is the correctness mechanism; eliminating impossible regions is the strategy.
+
+---
+
+## Q 
+
+What is a loop invariant?
 
 ## A
 
-Because Big O ignores
+A condition that is true before the loop starts, remains true after every iteration, and is still true when the loop terminates.
 
-- cache locality
-- constant factors
-- branch prediction
-- compiler optimizations
-- memory allocation
-- IO latency
+---
+
+## Q 
+
+Why does `low = mid` sometimes lead to an infinite loop?
+
+
+## A
+
+The real reason is **lack of progress**
+
 
 ---
 
 ## Q
 
-Why are arrays faster than linked lists?
+ Why do databases rely on `lower_bound` more often than ordinary binary search?
+
 
 ## A
 
-Arrays are contiguous.
-
-CPU cache loads nearby elements together.
-
-Linked lists require pointer chasing.
+it allows index structures like [[B-tree]] to instantly jump to the start of a range query and perform fast sequential scans
 
 ---
 
 ## Q
 
-What is amortized analysis?
+What is a monotonic predicate?
+
 
 ## A
 
-Average cost over many operations.
+A monotonic predicate is a function whose truth value changes only once.
 
-Example
+Example:
 
-Dynamic array append.
+```
+False
+False
+False
+True
+True
+True
+```
+
+
+---
+
+## Q
+
+Give three real-world optimization problems where binary search can be applied to the answer space.
+
+
+## A
+
+
+- cache size 
+- buffer size 
+- timeout
+- maximum packet size
+- number of servers 
+- compensation level
+
+If answer space is monotonic we can apply with binary search.
+
