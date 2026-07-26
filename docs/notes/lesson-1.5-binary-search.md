@@ -473,3 +473,14 @@ So binary search is used _inside_ larger data structures, not just on standalone
 This table should immediately suggest why databases favor B-trees over hash tables for general-purpose indexing.
 
 ---
+
+# Summery
+
+1. Binary search is about eliminating impossible regions
+2. Loop invariants guarantee correctness
+3.  Progress is mandatory:  `low = mid` is wrong  and causing an infinite loop  use `low = mid + 1`
+4. Use the overflow-safe midpoint `mid := low + (high-low)/2`
+5. `lower_bound` and `upper_bound` are more useful than ordinary binary search
+6. Binary search works on monotonic predicates
+7. Big O isn't the whole story
+8. Binary search is everywhere

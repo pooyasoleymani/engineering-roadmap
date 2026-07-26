@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/mindset/0001.md",
+                "file": "docs/notes/lesson-1.5-binary-search.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "0001"
+              "title": "lesson-1.5-binary-search"
             }
           },
           {
@@ -189,13 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/mindset/0001.md",
+                "file": "docs/notes/lesson-1.5-binary-search.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 0001"
+              "title": "Outline of lesson-1.5-binary-search"
             }
           },
           {
@@ -238,16 +238,16 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "3c660572df5ae446",
+  "active": "261b526336bcd212",
   "lastOpenFiles": [
+    "experiments/senior-engineer-discussion/preallocate-vs-non-allocate.md",
     "experiments/senior-engineer-discussion/searching-strategy-in-memory-paging.md",
     "docs/mindset/0001.md",
+    "docs/glossary/ring-buffer.md",
     "docs/mindset",
-    "experiments/senior-engineer-discussion/preallocate-vs-non-allocate.md",
     "experiments/README.md",
     "README.md",
     "ROADMAP.md",
-    "docs/glossary/ring-buffer.md",
     "docs/notes/lesson-1.5-binary-search.md",
     "docs/notes/lesson-1.4-dynamic-arrays-amortized-growth.md",
     "docs/notes/lesson-1.3-arrays.md",
