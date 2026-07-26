@@ -339,3 +339,134 @@ Examples:
 These algorithms trade memory or assumptions about the input for better time complexity.
 
 We'll study them later.
+
+---
+## Adaptive Sorting
+
+Suppose the data is already:
+
+```
+1 2 3 4 5 6
+```
+
+Should sorting still take
+
+```
+O(n log n)
+```
+
+?
+
+Not necessarily.
+
+Adaptive algorithms exploit existing order.
+
+Examples:
+
+- Timsort
+- Insertion Sort (for small arrays)
+- PDQSort
+
+Python's Timsort is extremely fast on nearly sorted data.
+
+---
+## Cache Behavior
+
+Suppose two algorithms both have:
+
+```
+O(n log n)
+```
+
+One accesses memory sequentially.
+
+The other jumps randomly.
+
+Which is faster?
+
+Usually:
+
+**Sequential.**
+
+Because of:
+
+- cache locality
+- hardware prefetching
+- fewer cache misses
+
+Modern sorting algorithms are designed with the CPU cache in mind.
+
+
+---
+## Parallel Sorting
+
+Modern servers have:
+
+- 8 cores
+- 16 cores
+- 64 cores
+
+Can sorting use them?
+
+**Yes**.
+
+**Algorithms** like **Merge Sort** divide work naturally.
+
+**Quick Sort** can also be *parallelized*.
+
+This matters for big-data systems.
+
+
+---
+## Sorting in Major Languages
+
+| Language        | Algorithm                |
+| --------------- | ------------------------ |
+| Go              | PDQSort + Insertion Sort |
+| Python          | Timsort                  |
+| C++             | Introsort                |
+| Java Objects    | Timsort                  |
+| Java primitives | Dual-Pivot QuickSort     |
+| Rust            | PDQSort                  |
+
+Notice:
+
+No major language uses a plain textbook Quick Sort.
+
+Runtime engineers optimize for real workloads.
+
+---
+
+## Trade-offs
+
+| Property       | Merge      | Quick     | Heap       |
+| -------------- | ---------- | --------- | ---------- |
+| Stable         | ✅          | ❌         | ❌          |
+| In-place       | ❌          | Mostly    | ✅          |
+| Worst Case     | O(n log n) | O(n²)     | O(n log n) |
+| Cache Friendly | Good       | Excellent | Poor       |
+| Parallel       | Excellent  | Good      | Fair       |
+
+We'll justify every cell in this table over the next lessons.
+
+---
+
+# Engineering Example
+
+Imagine you're sorting:
+
+```
+10 million log records
+```
+
+Questions a senior engineer asks:
+
+- Are records already nearly sorted?
+- Is stability required?
+- How much RAM is available?
+- Can we use multiple cores?
+- Will the data fit in memory?
+- Are comparisons expensive?
+- Is this latency-sensitive or throughput-oriented?
+
+The algorithm choice depends on these answers—not just on Big O.

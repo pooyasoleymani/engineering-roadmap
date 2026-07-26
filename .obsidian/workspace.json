@@ -240,8 +240,9 @@
   },
   "active": "261b526336bcd212",
   "lastOpenFiles": [
-    "docs/notes/lesson-1.5-binary-search.md",
+    "docs/glossary/cache-locality.md",
     "docs/notes/lesson-1.6.1-sorting.md",
+    "docs/notes/lesson-1.5-binary-search.md",
     "experiments/senior-engineer-discussion/preallocate-vs-non-allocate.md",
     "experiments/senior-engineer-discussion/searching-strategy-in-memory-paging.md",
     "docs/mindset/0001.md",
@@ -263,7 +264,6 @@
     "docs/glossary/contiguous-memory.md",
     "docs/glossary/capacity.md",
     "docs/glossary/cache-miss.md",
-    "docs/glossary/cache-locality.md",
     "docs/glossary/cache-line.md",
     "docs/glossary/big-O.md",
     "computer-sience/algorithms/searching/binary-search/binary_search.h",
