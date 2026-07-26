@@ -11,24 +11,10 @@
             "id": "8e5b1f970161483c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "experiments/senior-engineer-discussion/searching-strategy-in-memory-paging.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "searching-strategy-in-memory-paging"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           },
           {
@@ -213,13 +199,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "experiments/senior-engineer-discussion/searching-strategy-in-memory-paging.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of searching-strategy-in-memory-paging"
+              "title": "Outline"
             }
           },
           {
@@ -247,7 +232,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -264,8 +250,8 @@
   },
   "active": "8e5b1f970161483c",
   "lastOpenFiles": [
-    "experiments/senior-engineer-discussion/preallocate-vs-non-allocate.md",
     "experiments/senior-engineer-discussion/searching-strategy-in-memory-paging.md",
+    "experiments/senior-engineer-discussion/preallocate-vs-non-allocate.md",
     "docs/interview/binary-search.md",
     "computer-sience/algorithms/searching/binary-search/build/Makefile.tmp84924",
     "computer-sience/algorithms/searching/binary-search/build/CMakeCache.txt.tmp44503",

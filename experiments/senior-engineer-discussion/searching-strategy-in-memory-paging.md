@@ -245,3 +245,6 @@ This is probably the most important sentence today:
 That single sentence separates algorithm theory from performance engineering.
 
 ---
+
+
+Reference: [[binary-search]]
