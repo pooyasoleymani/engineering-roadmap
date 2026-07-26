@@ -224,8 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,7 +239,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "fc57762d2c440600",
+  "active": "bb0faf79d39e3a26",
   "lastOpenFiles": [
     "docs/glossary/memory-page.md",
     "docs/glossary/cpu-prefetch.md",
