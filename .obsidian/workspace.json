@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/notes/lesson-1.5-binary-search.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lesson-1.5-binary-search"
+              "title": "README"
             }
           },
           {
@@ -189,13 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/lesson-1.5-binary-search.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lesson-1.5-binary-search"
+              "title": "Outline of README"
             }
           },
           {
@@ -240,12 +240,14 @@
   },
   "active": "261b526336bcd212",
   "lastOpenFiles": [
+    "ROADMAP.md",
+    "README.md",
+    "docs/glossary/ring-buffer.md",
+    "docs/notes/lesson-1.5-binary-search.md",
     "docs/notes/lesson-1.4-dynamic-arrays-amortized-growth.md",
     "docs/notes/lesson-1.3-arrays.md",
     "docs/README.md",
-    "docs/notes/lesson-1.5-binary-search.md",
     "docs/glossary/spatial-locality.md",
-    "docs/glossary/ring-buffer.md",
     "docs/glossary/pointer-chasing.md",
     "docs/glossary/memory-page.md",
     "docs/glossary/linked-list.md",
@@ -274,8 +276,6 @@
     "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/why-catch.md",
     "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/usage-tips.md",
     "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/thread-safety.md",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/test-fixtures.md",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/test-cases-and-sections.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",

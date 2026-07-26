@@ -8,6 +8,15 @@ Week 1
 
 ✔ Lesson 1.3
 
+
+
 Week 2
 
- Lesson 1.4
+✔ Lesson 1.4
+
+✔ Lesson 1.5
+
+
+Week 3
+ 
+ Lesson 1.6
