@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/interview/binary-search.md",
+                "file": "experiments/senior-engineer-discussion/searching-strategy-in-memory-paging.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "binary-search"
+              "title": "searching-strategy-in-memory-paging"
             }
           },
           {
@@ -213,13 +213,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/interview/binary-search.md",
+                "file": "experiments/senior-engineer-discussion/searching-strategy-in-memory-paging.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of binary-search"
+              "title": "Outline of searching-strategy-in-memory-paging"
             }
           },
           {
@@ -262,8 +262,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "3c660572df5ae446",
+  "active": "8e5b1f970161483c",
   "lastOpenFiles": [
+    "experiments/senior-engineer-discussion/preallocate-vs-non-allocate.md",
+    "experiments/senior-engineer-discussion/searching-strategy-in-memory-paging.md",
+    "docs/interview/binary-search.md",
     "computer-sience/algorithms/searching/binary-search/build/Makefile.tmp84924",
     "computer-sience/algorithms/searching/binary-search/build/CMakeCache.txt.tmp44503",
     "computer-sience/algorithms/searching/binary-search/build/Makefile.tmp914e5",
@@ -274,7 +277,6 @@
     "computer-sience/algorithms/searching/binary-search/build/Makefile.tmp8a3b6",
     "computer-sience/algorithms/searching/binary-search/build/Makefile.tmp5a126",
     "computer-sience/algorithms/searching/binary-search/build/Makefile.tmp9461c",
-    "computer-sience/algorithms/searching/binary-search/build/Makefile.tmp88113",
     "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/why-catch.md",
     "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/usage-tips.md",
     "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/thread-safety.md",
@@ -298,8 +300,6 @@
     "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/deprecations.md",
     "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/contributing.md",
     "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/configuration.md",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/comparing-floating-point-numbers.md",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/commercial-users.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
