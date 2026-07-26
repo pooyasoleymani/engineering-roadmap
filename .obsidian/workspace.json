@@ -223,7 +223,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,7 +239,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "3c660572df5ae446",
+  "active": "261b526336bcd212",
   "lastOpenFiles": [
     "docs/notes/lesson-1.5-binary-search.md",
     "docs/notes/lesson-1.6.1-sorting.md",
