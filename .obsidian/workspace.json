@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/glossary/contiguous-memory.md",
+                "file": "docs/glossary/ring-buffer.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "contiguous-memory"
+              "title": "ring-buffer"
             }
           }
         ],
@@ -190,13 +190,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/glossary/contiguous-memory.md",
+                "file": "docs/glossary/ring-buffer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of contiguous-memory"
+              "title": "Outline of ring-buffer"
             }
           },
           {
@@ -239,14 +239,17 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "bb0faf79d39e3a26",
+  "active": "fc57762d2c440600",
   "lastOpenFiles": [
+    "docs/glossary/linked-list.md",
+    "docs/glossary/ring-buffer.md",
+    "docs/glossary/dynamic-array.md",
+    "docs/glossary/contiguous-memory.md",
     "docs/glossary/memory-page.md",
     "docs/glossary/cpu-prefetch.md",
     "docs/glossary/capacity.md",
     "docs/glossary/cache-miss.md",
     "docs/glossary/cache-locality.md",
-    "docs/glossary/contiguous-memory.md",
     "docs/README.md",
     "docs/glossary/cache-line.md",
     "docs/glossary/big-O.md",
@@ -274,9 +277,6 @@
     "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/release-process.md",
     "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/other-macros.md",
     "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/opensource-users.md",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/migrate-v2-to-v3.md",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/matchers.md",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/logging.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
