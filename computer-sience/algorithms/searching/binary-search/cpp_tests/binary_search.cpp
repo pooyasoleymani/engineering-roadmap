@@ -1,4 +1,4 @@
-#include "binary_search.hpp"
+#include "binary_search.h"
 #include <catch2/catch_test_macros.hpp>
 
 TEST_CASE("binary_search", "[lower_bound]") {

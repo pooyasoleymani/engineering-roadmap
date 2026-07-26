@@ -8,22 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8e5b1f970161483c",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
             "id": "261b526336bcd212",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/README.md",
+                "file": "docs/glossary/cpu-prefetch.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "cpu-prefetch"
             }
           },
           {
@@ -47,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/glossary/memory-page.md",
+                "file": "docs/glossary/contiguous-memory.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -62,10 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "memory-page"
+              "title": "contiguous-memory"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -199,12 +190,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "docs/glossary/contiguous-memory.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of contiguous-memory"
             }
           },
           {
@@ -248,8 +240,18 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "8e5b1f970161483c",
+  "active": "fc57762d2c440600",
   "lastOpenFiles": [
+    "docs/glossary/memory-page.md",
+    "docs/glossary/cpu-prefetch.md",
+    "docs/glossary/capacity.md",
+    "docs/glossary/cache-miss.md",
+    "docs/glossary/cache-locality.md",
+    "docs/glossary/contiguous-memory.md",
+    "docs/README.md",
+    "docs/glossary/cache-line.md",
+    "docs/glossary/big-O.md",
+    "computer-sience/algorithms/searching/binary-search/binary_search.h",
     "experiments/senior-engineer-discussion/searching-strategy-in-memory-paging.md",
     "experiments/senior-engineer-discussion/preallocate-vs-non-allocate.md",
     "docs/interview/binary-search.md",
@@ -262,7 +264,6 @@
     "computer-sience/algorithms/searching/binary-search/build/CMakeCache.txt.tmpf20ed",
     "computer-sience/algorithms/searching/binary-search/build/Makefile.tmp8a3b6",
     "computer-sience/algorithms/searching/binary-search/build/Makefile.tmp5a126",
-    "computer-sience/algorithms/searching/binary-search/build/Makefile.tmp9461c",
     "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/why-catch.md",
     "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/usage-tips.md",
     "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/thread-safety.md",
@@ -277,15 +278,6 @@
     "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/migrate-v2-to-v3.md",
     "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/matchers.md",
     "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/logging.md",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/list-of-examples.md",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/limitations.md",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/generators.md",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/filtering-execution-path.md",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/faq.md",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/event-listeners.md",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/deprecations.md",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/contributing.md",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/configuration.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",

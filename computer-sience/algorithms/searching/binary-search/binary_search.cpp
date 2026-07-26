@@ -1,4 +1,5 @@
 #include <vector>
+#include "binary_search.h"
 
 
 namespace Search {
