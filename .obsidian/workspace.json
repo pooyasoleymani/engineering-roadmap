@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/notes/lesson-1.4-dynamic-arrays-amortized-growth.md",
+                "file": "docs/notes/lesson-1.5-binary-search.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lesson-1.4-dynamic-arrays-amortized-growth"
+              "title": "lesson-1.5-binary-search"
             }
           },
           {
@@ -189,13 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/lesson-1.4-dynamic-arrays-amortized-growth.md",
+                "file": "docs/notes/lesson-1.5-binary-search.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lesson-1.4-dynamic-arrays-amortized-growth"
+              "title": "Outline of lesson-1.5-binary-search"
             }
           },
           {
@@ -240,8 +240,8 @@
   },
   "active": "261b526336bcd212",
   "lastOpenFiles": [
-    "docs/notes/lesson-1.3-arrays.md",
     "docs/notes/lesson-1.4-dynamic-arrays-amortized-growth.md",
+    "docs/notes/lesson-1.3-arrays.md",
     "docs/README.md",
     "docs/notes/lesson-1.5-binary-search.md",
     "docs/glossary/spatial-locality.md",
