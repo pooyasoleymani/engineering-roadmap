@@ -18,12 +18,13 @@ else()
     add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-find_package(Catch2)
+
+add_library(binary_searching STATIC binary_search.cpp)
 
 if(BUILD_TEST)
-
-include(CTest)
-enable_testing()
-add_subdirectory(${CMAKE_SOURCE_DIR}/cpp_tests)
+    include(CTest)
+    find_package(Catch2)
+    enable_testing()
+    add_subdirectory(${CMAKE_SOURCE_DIR}/cpp_tests)
 
 endif()
