@@ -2,7 +2,7 @@
 Related: "[[lesson-1.5-binary-search]]"
 ---
 ---
-# Senior Engineer Challenge
+## Senior Engineer Challenge
 
 Imagine you're implementing a storage engine for a database.
 
@@ -236,7 +236,7 @@ because every nanosecond matters.
 
 ---
 
-# The Engineering Lesson
+## The Engineering Lesson
 
 This is probably the most important sentence today:
 
