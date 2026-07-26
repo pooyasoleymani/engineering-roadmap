@@ -17,7 +17,44 @@ Next: "[[lesson-1.5-binary-search]]"
 - Why `append()` is not always O(1)
 
 ---
+# Summary
 
+Dynamic arrays solve the primary limitation of static arrays: **fixed capacity**. Instead of rejecting new elements when the array is full, a dynamic array allocates a larger block of contiguous memory, copies the existing elements, and continues operating transparently.
+
+Unlike a static array, a dynamic array maintains two separate values:
+
+- **Length** – the number of valid elements currently stored.    
+- **Capacity** – the total number of elements that can be stored before another allocation is required.
+
+
+Most append operations simply place the new element into unused capacity, making them **O(1)**. Only when the array is full does the runtime perform an expensive reallocation and copy, which costs **O(n)**.
+
+To avoid reallocating on every append, dynamic arrays grow **geometrically** (for example, doubling their capacity or using an adaptive growth factor). This dramatically reduces the number of reallocations over time, making the **average (amortized)** cost of appending an element **O(1)**.
+
+Modern programming languages all implement some form of dynamic array:
+
+| Language | Dynamic Array Implementation |
+| -------- | ---------------------------- |
+| Go       | Slice                        |
+| Python   | `list`                       |
+| C++      | `std::vector`                |
+| Java     | `ArrayList`                  |
+| Rust     | `Vec<T>`                     |
+
+Although these languages expose different APIs, they all rely on the same fundamental design:
+
+```text
+Pointer
+Length
+Capacity
+```
+
+Dynamic arrays represent an engineering trade-off between **performance** and **memory usage**. Allocating extra capacity wastes some memory, but it significantly reduces expensive reallocations and copying. This trade-off enables high-performance append operations while preserving contiguous memory, excellent cache locality, and efficient CPU utilization.
+
+Understanding dynamic arrays is essential because they form the foundation of many modern data structures and runtime implementations, including Go slices, Python lists, C++ vectors, ring buffers, stacks, queues, and numerous high-performance systems.
+
+
+---
 # Why Growth Strategy is important ?
 
 ## Problem
@@ -125,6 +162,21 @@ Complexity:
 O(n)
 ```
 
+
+---
+# Definition 
+A **dynamic array** is a contiguous block of memory that automatically grows when its capacity is exhausted. Unlike a static array, a dynamic array separates: - Logical Size - Allocated Capacity Example: 
+
+```text
+Length = 3 
+Capacity = 8 
+
++----+----+----+----+----+----+----+----+ 
+| 10 | 20 | 30 | | | | | | 
++----+----+----+----+----+----+----+----+
+```
+
+Only the first three elements are valid.
 
 ---
 

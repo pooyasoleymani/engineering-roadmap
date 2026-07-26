@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/glossary/cpu-prefetch.md",
+                "file": "docs/notes/lesson-1.4-dynamic-arrays-amortized-growth.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "cpu-prefetch"
+              "title": "lesson-1.4-dynamic-arrays-amortized-growth"
             }
           },
           {
@@ -189,13 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/glossary/cpu-prefetch.md",
+                "file": "docs/notes/lesson-1.4-dynamic-arrays-amortized-growth.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of cpu-prefetch"
+              "title": "Outline of lesson-1.4-dynamic-arrays-amortized-growth"
             }
           },
           {
@@ -240,16 +240,22 @@
   },
   "active": "261b526336bcd212",
   "lastOpenFiles": [
+    "docs/notes/lesson-1.3-arrays.md",
+    "docs/notes/lesson-1.4-dynamic-arrays-amortized-growth.md",
+    "docs/README.md",
+    "docs/notes/lesson-1.5-binary-search.md",
+    "docs/glossary/spatial-locality.md",
     "docs/glossary/ring-buffer.md",
-    "docs/glossary/cpu-prefetch.md",
-    "docs/glossary/linked-list.md",
-    "docs/glossary/dynamic-array.md",
-    "docs/glossary/contiguous-memory.md",
+    "docs/glossary/pointer-chasing.md",
     "docs/glossary/memory-page.md",
+    "docs/glossary/linked-list.md",
+    "docs/glossary/heap-memory.md",
+    "docs/glossary/dynamic-array.md",
+    "docs/glossary/cpu-prefetch.md",
+    "docs/glossary/contiguous-memory.md",
     "docs/glossary/capacity.md",
     "docs/glossary/cache-miss.md",
     "docs/glossary/cache-locality.md",
-    "docs/README.md",
     "docs/glossary/cache-line.md",
     "docs/glossary/big-O.md",
     "computer-sience/algorithms/searching/binary-search/binary_search.h",
@@ -270,12 +276,6 @@
     "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/thread-safety.md",
     "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/test-fixtures.md",
     "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/test-cases-and-sections.md",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/skipping-passing-failing.md",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/reporters.md",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/reporter-events.md",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/release-process.md",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/other-macros.md",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/opensource-users.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
