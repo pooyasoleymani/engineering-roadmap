@@ -55,8 +55,7 @@
               "title": "ring-buffer"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -190,13 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/glossary/ring-buffer.md",
+                "file": "docs/glossary/cpu-prefetch.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ring-buffer"
+              "title": "Outline of cpu-prefetch"
             }
           },
           {
@@ -224,8 +223,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -240,14 +238,14 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "fc57762d2c440600",
+  "active": "261b526336bcd212",
   "lastOpenFiles": [
-    "docs/glossary/linked-list.md",
     "docs/glossary/ring-buffer.md",
+    "docs/glossary/cpu-prefetch.md",
+    "docs/glossary/linked-list.md",
     "docs/glossary/dynamic-array.md",
     "docs/glossary/contiguous-memory.md",
     "docs/glossary/memory-page.md",
-    "docs/glossary/cpu-prefetch.md",
     "docs/glossary/capacity.md",
     "docs/glossary/cache-miss.md",
     "docs/glossary/cache-locality.md",
