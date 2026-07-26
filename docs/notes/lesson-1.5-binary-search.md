@@ -2,7 +2,7 @@
 Date: 2026-07-26
 tags:
   - software_engineering
-Next:
+Next: "[[lesson-1.6.1-sorting]]"
 ---
 ---
 

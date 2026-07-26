@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/notes/lesson-1.5-binary-search.md",
+                "file": "docs/notes/lesson-1.6.1-sorting.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lesson-1.5-binary-search"
+              "title": "lesson-1.6.1-sorting"
             }
           },
           {
@@ -189,13 +189,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/lesson-1.5-binary-search.md",
+                "file": "docs/notes/lesson-1.6.1-sorting.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lesson-1.5-binary-search"
+              "title": "Outline of lesson-1.6.1-sorting"
             }
           },
           {
@@ -238,8 +238,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "261b526336bcd212",
+  "active": "3c660572df5ae446",
   "lastOpenFiles": [
+    "docs/notes/lesson-1.5-binary-search.md",
+    "docs/notes/lesson-1.6.1-sorting.md",
     "experiments/senior-engineer-discussion/preallocate-vs-non-allocate.md",
     "experiments/senior-engineer-discussion/searching-strategy-in-memory-paging.md",
     "docs/mindset/0001.md",
@@ -248,7 +250,6 @@
     "experiments/README.md",
     "README.md",
     "ROADMAP.md",
-    "docs/notes/lesson-1.5-binary-search.md",
     "docs/notes/lesson-1.4-dynamic-arrays-amortized-growth.md",
     "docs/notes/lesson-1.3-arrays.md",
     "docs/README.md",
@@ -275,7 +276,6 @@
     "computer-sience/algorithms/searching/binary-search/build/Makefile.tmpdfc4d",
     "computer-sience/algorithms/searching/binary-search/build/CMakeCache.txt.tmpf20ed",
     "computer-sience/algorithms/searching/binary-search/build/Makefile.tmp8a3b6",
-    "cpp/external/catch2/build/Catch2-3.15.2-Linux (2)/share/doc/Catch2/why-catch.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
