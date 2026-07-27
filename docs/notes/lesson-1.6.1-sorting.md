@@ -470,3 +470,4 @@ Questions a senior engineer asks:
 - Is this latency-sensitive or throughput-oriented?
 
 The algorithm choice depends on these answers—not just on Big O.
+

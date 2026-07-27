@@ -55,7 +55,8 @@
               "title": "ring-buffer"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -189,13 +190,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/lesson-1.6.1-sorting.md",
+                "file": "docs/glossary/ring-buffer.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lesson-1.6.1-sorting"
+              "title": "Outline of ring-buffer"
             }
           },
           {
@@ -223,7 +224,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -238,10 +240,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "261b526336bcd212",
+  "active": "fc57762d2c440600",
   "lastOpenFiles": [
-    "docs/glossary/cache-locality.md",
     "docs/notes/lesson-1.6.1-sorting.md",
+    "docs/glossary/cache-locality.md",
     "docs/notes/lesson-1.5-binary-search.md",
     "experiments/senior-engineer-discussion/preallocate-vs-non-allocate.md",
     "experiments/senior-engineer-discussion/searching-strategy-in-memory-paging.md",
