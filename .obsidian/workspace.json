@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/glossary/ring-buffer.md",
+                "file": "go/06-authentication/02-jwt.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ring-buffer"
+              "title": "02-jwt"
             }
           }
         ],
@@ -190,13 +190,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/glossary/ring-buffer.md",
+                "file": "go/06-authentication/02-jwt.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ring-buffer"
+              "title": "Outline of 02-jwt"
             }
           },
           {
@@ -224,8 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -242,20 +241,35 @@
   },
   "active": "fc57762d2c440600",
   "lastOpenFiles": [
+    "go/README.md",
+    "go/06-authentication/02-jwt.md",
+    "go/exercises",
+    "go/11-system-design",
+    "go/10-grpc",
+    "go/09-caching",
+    "go/08-messaging",
+    "go/07-production",
+    "go/06-authentication",
+    "go/05-backend-architecture",
+    "go/04-database",
+    "go/03-http",
+    "docs/README.md",
+    "templates/Projects.md",
+    "templates/Lesson.md",
+    "templates/Glossary.md",
+    "README.md",
+    "projects/README.md",
+    "docs/glossary/ring-buffer.md",
     "docs/notes/lesson-1.6.1-sorting.md",
     "docs/glossary/cache-locality.md",
     "docs/notes/lesson-1.5-binary-search.md",
     "experiments/senior-engineer-discussion/preallocate-vs-non-allocate.md",
     "experiments/senior-engineer-discussion/searching-strategy-in-memory-paging.md",
     "docs/mindset/0001.md",
-    "docs/glossary/ring-buffer.md",
-    "docs/mindset",
     "experiments/README.md",
-    "README.md",
     "ROADMAP.md",
     "docs/notes/lesson-1.4-dynamic-arrays-amortized-growth.md",
     "docs/notes/lesson-1.3-arrays.md",
-    "docs/README.md",
     "docs/glossary/spatial-locality.md",
     "docs/glossary/pointer-chasing.md",
     "docs/glossary/memory-page.md",
@@ -263,21 +277,6 @@
     "docs/glossary/heap-memory.md",
     "docs/glossary/dynamic-array.md",
     "docs/glossary/cpu-prefetch.md",
-    "docs/glossary/contiguous-memory.md",
-    "docs/glossary/capacity.md",
-    "docs/glossary/cache-miss.md",
-    "docs/glossary/cache-line.md",
-    "docs/glossary/big-O.md",
-    "computer-sience/algorithms/searching/binary-search/binary_search.h",
-    "docs/interview/binary-search.md",
-    "computer-sience/algorithms/searching/binary-search/build/Makefile.tmp84924",
-    "computer-sience/algorithms/searching/binary-search/build/CMakeCache.txt.tmp44503",
-    "computer-sience/algorithms/searching/binary-search/build/Makefile.tmp914e5",
-    "computer-sience/algorithms/searching/binary-search/build/CMakeCache.txt",
-    "computer-sience/algorithms/searching/binary-search/binary_search.cpp",
-    "computer-sience/algorithms/searching/binary-search/build/Makefile.tmpdfc4d",
-    "computer-sience/algorithms/searching/binary-search/build/CMakeCache.txt.tmpf20ed",
-    "computer-sience/algorithms/searching/binary-search/build/Makefile.tmp8a3b6",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
