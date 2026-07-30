@@ -87,5 +87,5 @@ Books
 
 Current Stage
 
-Week 2
-Lesson 1.4
+Week 3
+Lesson 1.6

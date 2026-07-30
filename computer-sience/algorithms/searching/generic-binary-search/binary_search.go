@@ -1,6 +1,9 @@
 package genericbinarysearch
 
-import "cmp"
+import (
+	"cmp"
+	"sort"
+)
 
 // Search returns the target if found, otherwise returns the zero value of T.
 func Search[T cmp.Ordered](target T, arr []T) T {
@@ -18,6 +21,7 @@ func Search[T cmp.Ordered](target T, arr []T) T {
 			low = mid + 1
 		}
 	}
+	sort.Search()
 	return res
 }
 
