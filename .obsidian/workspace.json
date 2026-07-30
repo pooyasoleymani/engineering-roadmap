@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/notes/lesson-1.6.1-sorting.md",
+                "file": "docs/mindset/0001.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lesson-1.6.1-sorting"
+              "title": "0001"
             }
           }
         ],
@@ -215,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/lesson-1.6.1-sorting.md",
+                "file": "docs/mindset/0001.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lesson-1.6.1-sorting"
+              "title": "Outline of 0001"
             }
           },
           {
@@ -249,7 +249,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5
+    "width": 402.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -264,10 +265,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "bb0faf79d39e3a26",
+  "active": "eb559f44ccdf6228",
   "lastOpenFiles": [
-    "docs/notes/lesson-1.5-binary-search.md",
     "docs/notes/lesson-1.6.1-sorting.md",
+    "docs/notes/lesson-1.5-binary-search.md",
     "docs/glossary/cpu-prefetch.md",
     "docs/glossary/distributed-systems.md",
     "docs/README.md",
