@@ -463,12 +463,12 @@ So binary search is used _inside_ larger data structures, not just on standalone
 
 # Trade-offs
 
-|Algorithm|Lookup|Ordered Data|Range Queries|
-|---|---|---|---|
-|Linear Search|O(n)|No|No|
-|Binary Search|O(log n)|Yes|Yes|
-|Hash Table|O(1) avg|No|No|
-|B-tree|O(log n)|Yes|Excellent|
+| Algorithm     | Lookup   | Ordered Data | Range Queries |
+| ------------- | -------- | ------------ | ------------- |
+| Linear Search | O(n)     | No           | No            |
+| Binary Search | O(log n) | Yes          | Yes           |
+| Hash Table    | O(1) avg | No           | No            |
+| B-tree        | O(log n) | Yes          | Excellent     |
 
 This table should immediately suggest why databases favor B-trees over hash tables for general-purpose indexing.
 

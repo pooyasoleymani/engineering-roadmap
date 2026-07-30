@@ -69,7 +69,7 @@ Sorting is fundamental in:
 - Database query execution
 - Search engines
 - Log aggregation
-- Distributed systems
+- [[distributed-systems]]
 - MapReduce
 - Git
 - Linux kernel
@@ -471,3 +471,20 @@ Questions a senior engineer asks:
 
 The algorithm choice depends on these answers—not just on Big O.
 
+
+
+---
+# Summary
+
+- Sorting is the process of arranging elements according to a defined ordering relation (e.g., ascending or descending).
+- Sorting is one of the most highly optimized areas of software engineering because it is fundamental to databases, operating systems, distributed systems, search engines, log processing, and analytics.
+- **Stable sort:** Preserves the relative order of elements with equal keys. Stability is important for multi-column database sorting, `GROUP BY`, and multi-stage sorting.
+- **Unstable sort:** Does not guarantee the relative order of equal keys after sorting.
+- **In-place sorting:** Requires little or no additional memory (typically `O(1)` auxiliary space). Examples: Heap Sort, Selection Sort, Quick Sort (average case).
+- **Out-of-place sorting:** Requires additional memory to perform the sort. Examples: Merge Sort, Counting Sort.
+- **Comparison-based sorting:** Determines order by comparing elements. These algorithms have a theoretical lower bound of **O(n log n)** in the general case.
+- **Non-comparison sorting:** Exploits assumptions about the input (such as a bounded integer range) to achieve better-than-`O(n log n)` performance. Examples: Counting Sort, Radix Sort, Bucket Sort.
+- **Adaptive sorting:** Takes advantage of existing order in the input to improve performance. Examples: Insertion Sort, Timsort, PDQSort.
+- Real-world performance depends not only on algorithmic complexity but also on cache locality, branch prediction, memory allocation, and CPU architecture.
+- Some sorting algorithms can be parallelized to utilize multiple CPU cores, significantly improving performance on large datasets.
+-  Choosing a sorting algorithm is an engineering trade-off involving time complexity, memory usage, stability, cache behavior, adaptiveness, and characteristics of the input data.
