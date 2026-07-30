@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/mindset/0001.md",
+                "file": "docs/interview/sorting-fundamental.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "0001"
+              "title": "sorting-fundamental"
             }
           }
         ],
@@ -215,13 +215,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/mindset/0001.md",
+                "file": "docs/interview/sorting-fundamental.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 0001"
+              "title": "Outline of sorting-fundamental"
             }
           },
           {
@@ -230,8 +230,8 @@
             "state": {
               "type": "calendar",
               "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
@@ -240,8 +240,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -261,13 +261,17 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false,
-      "copilot:Open Copilot Chat": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "eb559f44ccdf6228",
   "lastOpenFiles": [
+    "docs/interview/binary-search.md",
+    "docs/interview/dynamic-arrays-amortized-growth.md",
+    "docs/interview/sorting-fundamental.md",
+    "docs/interview/memory-layout.md",
     "docs/notes/lesson-1.6.1-sorting.md",
+    "docs/mindset/0001.md",
     "docs/notes/lesson-1.5-binary-search.md",
     "docs/glossary/cpu-prefetch.md",
     "docs/glossary/distributed-systems.md",
@@ -297,12 +301,7 @@
     "go/02-concurency/Untitled.md",
     "go/01-go-fundamental/Untitled.md",
     "experiments/senior-engineer-discussion/searching-strategy-in-memory-paging.md",
-    "docs/mindset/0001.md",
     "docs/glossary/ring-buffer.md",
-    "docs/glossary/linked-list.md",
-    "docs/glossary/contiguous-memory.md",
-    "docs/glossary/stack-memory.md",
-    "docs/glossary/spatial-locality.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
