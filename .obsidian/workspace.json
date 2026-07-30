@@ -8,55 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8e5b1f970161483c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/glossary/pointer-chasing.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "pointer-chasing"
-            }
-          },
-          {
             "id": "84fb9cbc8bc6d9b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/notes/lesson-1.6.1-sorting.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "lesson-1.6.1-sorting"
-            }
-          },
-          {
-            "id": "eb559f44ccdf6228",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -78,9 +30,32 @@
               "icon": "lucide-file",
               "title": "sorting-fundamental"
             }
+          },
+          {
+            "id": "6aba1dbaaeb78f8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/notes/lesson-1.6.1-sorting.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "lesson-1.6.1-sorting"
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -261,16 +236,19 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "eb559f44ccdf6228",
+  "active": "84fb9cbc8bc6d9b6",
   "lastOpenFiles": [
+    "docs/notes/lesson-1.6.1-sorting.md",
+    "docs/interview/sorting-fundamental.md",
+    "docs/glossary/pointer-chasing.md",
+    "ROADMAP.md",
     "docs/interview/binary-search.md",
     "docs/interview/dynamic-arrays-amortized-growth.md",
-    "docs/interview/sorting-fundamental.md",
     "docs/interview/memory-layout.md",
-    "docs/notes/lesson-1.6.1-sorting.md",
     "docs/mindset/0001.md",
     "docs/notes/lesson-1.5-binary-search.md",
     "docs/glossary/cpu-prefetch.md",
@@ -300,8 +278,6 @@
     "go/03-http/Untitled.md",
     "go/02-concurency/Untitled.md",
     "go/01-go-fundamental/Untitled.md",
-    "experiments/senior-engineer-discussion/searching-strategy-in-memory-paging.md",
-    "docs/glossary/ring-buffer.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
