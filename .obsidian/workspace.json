@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/glossary/bubble-sort.md",
+                "file": "docs/glossary/slection-sort.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "bubble-sort"
+              "title": "slection-sort"
             }
           },
           {
@@ -190,13 +190,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/glossary/bubble-sort.md",
+                "file": "docs/glossary/slection-sort.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of bubble-sort"
+              "title": "Outline of slection-sort"
             }
           },
           {
@@ -242,12 +242,14 @@
   },
   "active": "84fb9cbc8bc6d9b6",
   "lastOpenFiles": [
+    "docs/glossary/bubble-sort.md",
+    "docs/glossary/slection-sort.md",
+    "computer-sience/algorithms/sorting/selection-sort.py",
     "computer-sience/algorithms/sorting/bubble_sort.py",
     "computer-sience/algorithms/sorting",
     "docs/glossary/cpu-prefetch.md",
     "docs/interview/dynamic-arrays-amortized-growth.md",
     "docs/glossary/cache-line.md",
-    "docs/glossary/bubble-sort.md",
     "docs/glossary/ring-buffer.md",
     "docs/glossary/spatial-locality.md",
     "docs/glossary/contiguous-memory.md",
@@ -272,8 +274,6 @@
     "go/exercises/jwt/internal/model/user.go",
     "go/exercises/jwt/internal/model/model.go",
     "go/exercises/jwt/internal/service/user.go",
-    "go/exercises/jwt/internal/service/service.go",
-    "go/exercises/jwt/internal/http_handler/user.go",
     "go/11-system-design/Untitled.md",
     "go/10-grpc/Untitled.md",
     "go/09-caching/Untitled.md",
