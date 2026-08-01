@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/interview/sorting-fundamental.md",
+                "file": "docs/glossary/bubble-sort.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "sorting-fundamental"
+              "title": "bubble-sort"
             }
           },
           {
@@ -190,13 +190,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/interview/sorting-fundamental.md",
+                "file": "docs/glossary/bubble-sort.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of sorting-fundamental"
+              "title": "Outline of bubble-sort"
             }
           },
           {
@@ -242,16 +242,25 @@
   },
   "active": "84fb9cbc8bc6d9b6",
   "lastOpenFiles": [
-    "docs/notes/lesson-1.6.1-sorting.md",
+    "computer-sience/algorithms/sorting/bubble_sort.py",
+    "computer-sience/algorithms/sorting",
+    "docs/glossary/cpu-prefetch.md",
+    "docs/interview/dynamic-arrays-amortized-growth.md",
+    "docs/glossary/cache-line.md",
+    "docs/glossary/bubble-sort.md",
+    "docs/glossary/ring-buffer.md",
+    "docs/glossary/spatial-locality.md",
+    "docs/glossary/contiguous-memory.md",
+    "docs/glossary/capacity.md",
     "docs/interview/sorting-fundamental.md",
+    "docs/glossary/bubble-sort",
+    "docs/notes/lesson-1.6.1-sorting.md",
     "docs/glossary/pointer-chasing.md",
     "ROADMAP.md",
     "docs/interview/binary-search.md",
-    "docs/interview/dynamic-arrays-amortized-growth.md",
     "docs/interview/memory-layout.md",
     "docs/mindset/0001.md",
     "docs/notes/lesson-1.5-binary-search.md",
-    "docs/glossary/cpu-prefetch.md",
     "docs/glossary/distributed-systems.md",
     "docs/README.md",
     "docs/glossary/B-tree.md",
@@ -265,19 +274,10 @@
     "go/exercises/jwt/internal/service/user.go",
     "go/exercises/jwt/internal/service/service.go",
     "go/exercises/jwt/internal/http_handler/user.go",
-    "go/exercises/jwt/internal/http_handler/handler.go",
-    "go/exercises/jwt/cmd/api/main.go",
     "go/11-system-design/Untitled.md",
     "go/10-grpc/Untitled.md",
     "go/09-caching/Untitled.md",
     "go/08-messaging/Untitled.md",
-    "go/07-production/Untitled.md",
-    "go/06-authentication/02-jwt.md",
-    "go/05-backend-architecture/Untitled.md",
-    "go/04-database/Untitled.md",
-    "go/03-http/Untitled.md",
-    "go/02-concurency/Untitled.md",
-    "go/01-go-fundamental/Untitled.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
