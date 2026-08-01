@@ -3,7 +3,7 @@ from typing import List, Optional, Sequence, Any
 def bubble_sort(data: Optional[Sequence[Any]]) -> None:
     length = len(data)
     for i in range(1, length):
-        for j in range(0, length-2):
+        for j in range(0, length-1):
             if data[j] > data[j+1]:
                 data[j], data[j+1] = data[j+1], data[j]
                 
