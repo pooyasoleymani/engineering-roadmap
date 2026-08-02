@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/interview/sorting-merge-sort.md",
+                "file": "docs/notes/lesson-1.6.2-merge-sort.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "sorting-merge-sort"
+              "title": "lesson-1.6.2-merge-sort"
             }
           },
           {
@@ -190,13 +190,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/interview/sorting-merge-sort.md",
+                "file": "docs/notes/lesson-1.6.2-merge-sort.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of sorting-merge-sort"
+              "title": "Outline of lesson-1.6.2-merge-sort"
             }
           },
           {
@@ -224,7 +224,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5
+    "width": 402.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,8 +242,8 @@
   },
   "active": "84fb9cbc8bc6d9b6",
   "lastOpenFiles": [
-    "docs/notes/lesson-1.6.2-merge-sort.md",
     "docs/interview/sorting-merge-sort.md",
+    "docs/notes/lesson-1.6.2-merge-sort.md",
     "docs/glossary/PDQSort.md",
     "docs/README.md",
     "docs/interview/sorting-fundamental.md",
