@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/interview/sorting-fundamental.md",
+                "file": "docs/notes/lesson-1.6.2-merge-sort.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "sorting-fundamental"
+              "title": "lesson-1.6.2-merge-sort"
             }
           },
           {
@@ -190,13 +190,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/interview/sorting-fundamental.md",
+                "file": "docs/notes/lesson-1.6.2-merge-sort.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of sorting-fundamental"
+              "title": "Outline of lesson-1.6.2-merge-sort"
             }
           },
           {
@@ -224,7 +224,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5
+    "width": 402.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,9 +242,10 @@
   },
   "active": "84fb9cbc8bc6d9b6",
   "lastOpenFiles": [
+    "docs/interview/sorting-fundamental.md",
+    "docs/notes/lesson-1.6.2-merge-sort.md",
     "docs/mistakes/array vs link-list.md",
     "docs/mindset/0001.md",
-    "docs/interview/sorting-fundamental.md",
     "cpp/stl/sort.md",
     "computer-sience/algorithms/sorting/sort_algorithms.go",
     "computer-sience/algorithms/sorting/sorting_test.go",
@@ -276,7 +278,6 @@
     "docs/glossary/B-tree.md",
     "docs/glossary/CAP Theorem.md",
     "docs/glossary/big-O.md",
-    "go/11-system-design/Untitled.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
