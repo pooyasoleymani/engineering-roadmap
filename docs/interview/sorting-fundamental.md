@@ -165,8 +165,85 @@ D 300
 ```
 
 Notice
+
 A stays before C.
 
+---
 
-3. we can use compare function for satisfy requirement
-4. twice sort not recommend if sort algorithm not adaptive, custom compare is better
+If your language has **stable sort**:
+
+One comparator is enough:
+
+```
+price < price
+```
+
+because stability preserves rating order.
+
+---
+
+If the sort is **unstable**:
+
+A comparator
+
+```
+price < price
+```
+
+is **NOT enough**.
+
+The sorting algorithm is allowed to swap equal-price items.
+
+So
+
+```
+C
+A
+```
+
+would also be valid.
+
+---
+
+How do we fix it?
+
+### Option 1
+
+Comparator
+
+```
+if(price != other.price)
+    return price < other.price;
+
+return rating > other.rating;
+```
+
+Now the comparator defines a total ordering.
+
+No stability required.
+
+---
+
+### Option 2
+
+Attach original position.
+
+```
+Price
+
+↓
+
+Original Index
+```
+
+Comparator
+
+```
+Price
+
+↓
+
+Original Position
+```
+
+Many production systems do exactly this.
