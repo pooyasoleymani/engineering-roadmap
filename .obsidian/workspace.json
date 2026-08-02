@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/notes/lesson-1.6.2-merge-sort.md",
+                "file": "docs/interview/sorting-merge-sort.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lesson-1.6.2-merge-sort"
+              "title": "sorting-merge-sort"
             }
           },
           {
@@ -190,13 +190,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/lesson-1.6.2-merge-sort.md",
+                "file": "docs/interview/sorting-merge-sort.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lesson-1.6.2-merge-sort"
+              "title": "Outline of sorting-merge-sort"
             }
           },
           {
@@ -241,8 +241,9 @@
   },
   "active": "84fb9cbc8bc6d9b6",
   "lastOpenFiles": [
-    "docs/glossary/PDQSort.md",
     "docs/notes/lesson-1.6.2-merge-sort.md",
+    "docs/interview/sorting-merge-sort.md",
+    "docs/glossary/PDQSort.md",
     "docs/README.md",
     "docs/interview/sorting-fundamental.md",
     "docs/notes/lesson-1.6.1-sorting.md",
@@ -276,7 +277,6 @@
     "docs/glossary/capacity.md",
     "docs/glossary/pointer-chasing.md",
     "ROADMAP.md",
-    "docs/interview/binary-search.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
