@@ -14,7 +14,7 @@ Preserves the relative order of elements with equal keys
 
 ## A
 
-because database `GROUP BY` depend on stability
+Stable sorting is important because multiple sorting passes can be composed. For example, sort by Rating, then stably sort by Price. Equal-price products preserve their previous rating order. SQL operations such as `ORDER BY` on multiple columns often rely on this behavior, either directly or conceptually.
 
 ---
 ## Q
@@ -23,7 +23,8 @@ because database `GROUP BY` depend on stability
 
 ## A
 
-algorithms that don't use additional memory 
+- Algorithms that don't use additional memory.
+- Uses only **O(1) auxiliary memory** (ignoring recursion stack unless specified).
 
  ---
 ## Q
@@ -75,7 +76,7 @@ Adaptive algorithms exploit existing order.
 
 ## A
 
-Because complexity is not all thing and algorithms run on hardware 
+Sequential memory access improves cache locality, enables hardware prefetching, and reduces cache misses. Therefore, two algorithms with the same asymptotic complexity can have very different real-world performance.
 
 ---
 ## Q
@@ -85,4 +86,87 @@ Because complexity is not all thing and algorithms run on hardware
 
 ## A
 
-i think its about memory allocation  
+
+Additional reasons include:
+
+- Extra memory (O(n))
+- Allocation cost
+- Copy overhead
+- Cache behavior
+- Some datasets are nearly sorted (Timsort excels)
+- Some workloads favor in-place algorithms (Introsort, PDQSort)
+
+
+
+---
+
+## Senior Engineer Challenge
+
+Imagine you're building an e-commerce platform.
+
+Each product has:
+
+```
+type Product struct {
+    ID       int
+    Price    int
+    Rating   float64
+    Name     string
+}
+```
+
+The product list is already sorted by **Rating**.
+
+Now a new requirement arrives:
+
+> Display products sorted by **Price**, but if two products have the same price, preserve their original rating order.
+
+### Questions
+
+1. Would you choose a **stable** or **unstable** sorting algorithm?
+2. Why?
+3. If your language's default sort is unstable, how could you still satisfy the requirement?
+4. Would you sort twice or design a custom comparator?
+
+This is a realistic problem you'll encounter in backend services, recommendation systems, and search ranking pipelines.
+
+## A
+
+1. We choose *Stable* sorting algorithm
+2. because if sorting algorithm is *unstable* can't guarantee preserver original rating order.
+
+Suppose we have:
+
+```
+Rating order
+
+A
+B
+C
+D
+```
+
+Prices:
+
+```
+A 100
+B 200
+C 100
+D 300
+```
+
+Required result:
+
+```
+A 100
+C 100
+B 200
+D 300
+```
+
+Notice
+A stays before C.
+
+
+3. we can use compare function for satisfy requirement
+4. twice sort not recommend if sort algorithm not adaptive, custom compare is better

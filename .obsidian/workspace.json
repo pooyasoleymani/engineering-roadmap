@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cpp/stl/sort.md",
+                "file": "docs/interview/sorting-fundamental.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "sort"
+              "title": "sorting-fundamental"
             }
           },
           {
@@ -190,13 +190,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cpp/stl/sort.md",
+                "file": "docs/interview/sorting-fundamental.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of sort"
+              "title": "Outline of sorting-fundamental"
             }
           },
           {
@@ -215,8 +215,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -224,8 +224,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5,
-    "collapsed": true
+    "width": 402.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -242,10 +241,14 @@
   },
   "active": "84fb9cbc8bc6d9b6",
   "lastOpenFiles": [
+    "docs/mistakes/array vs link-list.md",
+    "docs/mindset/0001.md",
+    "docs/interview/sorting-fundamental.md",
+    "cpp/stl/sort.md",
+    "computer-sience/algorithms/sorting/sort_algorithms.go",
     "computer-sience/algorithms/sorting/sorting_test.go",
     "computer-sience/algorithms/sorting/sorting.go",
     "cpp/README.md",
-    "cpp/stl/sort.md",
     "cpp/stl",
     "docs/glossary/slection-sort.md",
     "computer-sience/algorithms/sorting/__pycache__/sorting.cpython-310.pyc",
@@ -254,8 +257,6 @@
     "computer-sience/algorithms/sorting/build/Testing/Temporary/LastTest.log.tmpd8e7f",
     "computer-sience/algorithms/sorting/build/CMakeCache.txt.tmpd2df4",
     "computer-sience/algorithms/sorting/build/CMakeCache.txt",
-    "computer-sience/algorithms/sorting/build/CMakeCache.txt.tmp9fe26",
-    "computer-sience/algorithms/sorting/build/Testing/Temporary/LastTest.log.tmp7b4ad",
     "docs/glossary/bubble-sort.md",
     "docs/glossary/cpu-prefetch.md",
     "docs/interview/dynamic-arrays-amortized-growth.md",
@@ -264,13 +265,11 @@
     "docs/glossary/spatial-locality.md",
     "docs/glossary/contiguous-memory.md",
     "docs/glossary/capacity.md",
-    "docs/interview/sorting-fundamental.md",
     "docs/notes/lesson-1.6.1-sorting.md",
     "docs/glossary/pointer-chasing.md",
     "ROADMAP.md",
     "docs/interview/binary-search.md",
     "docs/interview/memory-layout.md",
-    "docs/mindset/0001.md",
     "docs/notes/lesson-1.5-binary-search.md",
     "docs/glossary/distributed-systems.md",
     "docs/README.md",

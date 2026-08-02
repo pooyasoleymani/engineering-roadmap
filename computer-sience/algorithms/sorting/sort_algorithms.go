@@ -31,8 +31,9 @@ func insertionSort[T cmp.Ordered](arr []T) {
 	n := len(arr)
 	for i := 1; i < n; i++ {
 		p := i - 1
-		for p > 0 && arr[p+1] < arr[p] {
+		for p >= 0 && arr[p+1] < arr[p] {
 			arr[p], arr[p+1] = arr[p+1], arr[p]
+			p--
 		}
 	}
 }
