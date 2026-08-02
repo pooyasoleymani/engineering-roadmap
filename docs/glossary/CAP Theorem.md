@@ -2,7 +2,8 @@
 
 states that ==a distributed data store can simultaneously provide at most **two out of three** guarantees: **Consistency**, **Availability**, and **Partition Tolerance**==.
 
-Because physical networks will inevitably experience delays or drops, you must always choose **Partition Tolerance**. Therefore, the practical trade-off is always between **Consistency** and **Availability**.
+Because physical networks will inevitably experience delays or drops, you must always choose **Partition Tolerance**. 
+Therefore, the practical trade-off is always between **Consistency** and **Availability**.
 
 
 ### The 3 Core Guarantees
