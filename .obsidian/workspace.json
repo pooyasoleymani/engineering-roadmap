@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/glossary/slection-sort.md",
+                "file": "cpp/stl/sort.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "slection-sort"
+              "title": "sort"
             }
           },
           {
@@ -190,13 +190,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/glossary/slection-sort.md",
+                "file": "cpp/stl/sort.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of slection-sort"
+              "title": "Outline of sort"
             }
           },
           {
@@ -242,6 +242,12 @@
   },
   "active": "84fb9cbc8bc6d9b6",
   "lastOpenFiles": [
+    "computer-sience/algorithms/sorting/sorting_test.go",
+    "computer-sience/algorithms/sorting/sorting.go",
+    "cpp/README.md",
+    "cpp/stl/sort.md",
+    "cpp/stl",
+    "docs/glossary/slection-sort.md",
     "computer-sience/algorithms/sorting/__pycache__/sorting.cpython-310.pyc",
     "computer-sience/algorithms/sorting/sorting.py",
     "computer-sience/algorithms/sorting/insertion_sort.py",
@@ -250,11 +256,7 @@
     "computer-sience/algorithms/sorting/build/CMakeCache.txt",
     "computer-sience/algorithms/sorting/build/CMakeCache.txt.tmp9fe26",
     "computer-sience/algorithms/sorting/build/Testing/Temporary/LastTest.log.tmp7b4ad",
-    "computer-sience/algorithms/sorting/build/Testing/Temporary/LastTest.log.tmpdc2ad",
-    "computer-sience/algorithms/sorting/build/CMakeCache.txt.tmpc5498",
-    "computer-sience/algorithms/sorting/build/Makefile.tmp72fcb",
     "docs/glossary/bubble-sort.md",
-    "docs/glossary/slection-sort.md",
     "docs/glossary/cpu-prefetch.md",
     "docs/interview/dynamic-arrays-amortized-growth.md",
     "docs/glossary/cache-line.md",
@@ -276,8 +278,6 @@
     "docs/glossary/CAP Theorem.md",
     "docs/glossary/big-O.md",
     "go/11-system-design/Untitled.md",
-    "go/10-grpc/Untitled.md",
-    "go/09-caching/Untitled.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
