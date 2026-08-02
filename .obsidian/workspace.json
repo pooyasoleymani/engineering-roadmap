@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/notes/lesson-1.6.2-merge-sort.md",
+                "file": "docs/interview/sorting-merge-sort.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lesson-1.6.2-merge-sort"
+              "title": "sorting-merge-sort"
             }
           },
           {
@@ -190,13 +190,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/lesson-1.6.2-merge-sort.md",
+                "file": "docs/interview/sorting-merge-sort.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of lesson-1.6.2-merge-sort"
+              "title": "Outline of sorting-merge-sort"
             }
           },
           {
@@ -242,8 +242,16 @@
   },
   "active": "84fb9cbc8bc6d9b6",
   "lastOpenFiles": [
-    "docs/interview/sorting-merge-sort.md",
+    "computer-sience/algorithms/sorting/cpp_sorting/CMakeLists.txt",
+    "computer-sience/algorithms/sorting/cpp_sorting/sorting.hpp",
+    "computer-sience/algorithms/sorting/cpp_sorting/sorting.cpp",
+    "computer-sience/algorithms/sorting/cpp_sorting/cpp_tests/sorting_test.cpp",
+    "computer-sience/algorithms/sorting/cpp_sorting/cpp_tests/CMakeLists.txt",
+    "computer-sience/algorithms/sorting/cpp_sorting/cpp_tests",
+    "computer-sience/algorithms/sorting/cpp_sorting",
+    "computer-sience/algorithms/sorting/merg_sort.go",
     "docs/notes/lesson-1.6.2-merge-sort.md",
+    "docs/interview/sorting-merge-sort.md",
     "docs/glossary/PDQSort.md",
     "docs/README.md",
     "docs/interview/sorting-fundamental.md",
@@ -261,14 +269,7 @@
     "computer-sience/algorithms/sorting/sorting_test.go",
     "computer-sience/algorithms/sorting/sorting.go",
     "cpp/README.md",
-    "cpp/stl",
     "docs/glossary/slection-sort.md",
-    "computer-sience/algorithms/sorting/__pycache__/sorting.cpython-310.pyc",
-    "computer-sience/algorithms/sorting/sorting.py",
-    "computer-sience/algorithms/sorting/insertion_sort.py",
-    "computer-sience/algorithms/sorting/build/Testing/Temporary/LastTest.log.tmpd8e7f",
-    "computer-sience/algorithms/sorting/build/CMakeCache.txt.tmpd2df4",
-    "computer-sience/algorithms/sorting/build/CMakeCache.txt",
     "docs/glossary/bubble-sort.md",
     "docs/glossary/cpu-prefetch.md",
     "docs/interview/dynamic-arrays-amortized-growth.md",
@@ -277,7 +278,6 @@
     "docs/glossary/contiguous-memory.md",
     "docs/glossary/capacity.md",
     "docs/glossary/pointer-chasing.md",
-    "ROADMAP.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
