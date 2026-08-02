@@ -1,7 +1,6 @@
 from unittest import TestCase
 import unittest
-from bubble_sort import bubble_sort
-from selection_sort import selection_sort
+from sorting import *
 
 class TestSorting(TestCase):
     def setUp(self):
@@ -17,6 +16,11 @@ class TestSorting(TestCase):
             soreted_data = [1, 2, 5, 6, 7, 22, 23, 23, 33, 33, 45, 55, 56]
             selection_sort(self.data)
             self.assertEqual(self.data, soreted_data)
+            
+    def test_irsertion_sort(self) -> None:
+                soreted_data = [1, 2, 5, 6, 7, 22, 23, 23, 33, 33, 45, 55, 56]
+                insertion_sort(self.data)
+                self.assertEqual(self.data, soreted_data)
             
 if __name__ == "__main__":
     unittest.main()
