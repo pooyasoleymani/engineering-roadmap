@@ -35,7 +35,7 @@ func TestInsertionSort(t *testing.T) {
 func TestMergeSort(t *testing.T) {
 	arr := []int{1, 3, 7, 3, 5, 7, 9, 1, 9}
 	expct := []int{1, 1, 3, 3, 5, 7, 7, 9, 9}
-	mergSort(arr)
+	mergSort(arr, 0, len(arr)-1)
 	if !slices.Equal(arr, expct) {
 		t.Errorf("expect %v but got: %v", expct, arr)
 	}

@@ -451,7 +451,7 @@ We'll justify every cell in this table over the next lessons.
 
 ---
 
-# Engineering Example
+## Engineering Example
 
 Imagine you're sorting:
 
@@ -474,7 +474,7 @@ The algorithm choice depends on these answers—not just on Big O.
 
 
 ---
-# Summary
+## Summary
 
 - Sorting is the process of arranging elements according to a defined ordering relation (e.g., ascending or descending).
 - Sorting is one of the most highly optimized areas of software engineering because it is fundamental to databases, operating systems, distributed systems, search engines, log processing, and analytics.
@@ -487,4 +487,4 @@ The algorithm choice depends on these answers—not just on Big O.
 - **Adaptive sorting:** Takes advantage of existing order in the input to improve performance. Examples: Insertion Sort, Timsort, PDQSort.
 - Real-world performance depends not only on algorithmic complexity but also on cache locality, branch prediction, memory allocation, and CPU architecture.
 - Some sorting algorithms can be parallelized to utilize multiple CPU cores, significantly improving performance on large datasets.
--  Choosing a sorting algorithm is an engineering trade-off involving time complexity, memory usage, stability, cache behavior, adaptiveness, and characteristics of the input data.
+-  Choosing a sorting algorithm is an engineering trade-off involving time complexity, memory usage,stability, cache behavior, adaptiveness, and characteristics of the input data.

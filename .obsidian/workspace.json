@@ -30,30 +30,6 @@
               "icon": "lucide-file",
               "title": "sorting-merge-sort"
             }
-          },
-          {
-            "id": "6aba1dbaaeb78f8b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/notes/lesson-1.6.1-sorting.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "lesson-1.6.1-sorting"
-            }
           }
         ]
       }
@@ -242,32 +218,35 @@
   },
   "active": "84fb9cbc8bc6d9b6",
   "lastOpenFiles": [
+    "computer-sience/algorithms/sorting/merge_sort.py",
+    "computer-sience/algorithms/sorting/__debug_bin3241684373",
+    "computer-sience/algorithms/sorting/__debug_bin2069285196",
+    "computer-sience/algorithms/sorting/__debug_bin1370789639",
+    "computer-sience/algorithms/sorting/__debug_bin1709637923",
+    "computer-sience/algorithms/sorting/__debug_bin1480578159",
+    "docs/glossary/pointer-chasing.md",
+    "docs/notes/lesson-1.6.1-sorting.md",
+    "docs/glossary/contiguous-memory.md",
+    "docs/glossary/cache-line.md",
+    "docs/glossary/cache-miss.md",
+    "docs/glossary/cache-locality.md",
+    "docs/interview/sorting-merge-sort.md",
     "computer-sience/algorithms/sorting/cpp_sorting/CMakeLists.txt",
     "computer-sience/algorithms/sorting/cpp_sorting/sorting.hpp",
     "computer-sience/algorithms/sorting/cpp_sorting/sorting.cpp",
     "computer-sience/algorithms/sorting/cpp_sorting/cpp_tests/sorting_test.cpp",
     "computer-sience/algorithms/sorting/cpp_sorting/cpp_tests/CMakeLists.txt",
-    "computer-sience/algorithms/sorting/cpp_sorting/cpp_tests",
-    "computer-sience/algorithms/sorting/cpp_sorting",
-    "computer-sience/algorithms/sorting/merg_sort.go",
     "docs/notes/lesson-1.6.2-merge-sort.md",
-    "docs/interview/sorting-merge-sort.md",
     "docs/glossary/PDQSort.md",
     "docs/README.md",
     "docs/interview/sorting-fundamental.md",
-    "docs/notes/lesson-1.6.1-sorting.md",
     "docs/glossary/distributed-systems.md",
-    "docs/glossary/cache-locality.md",
     "docs/glossary/array.md",
-    "docs/glossary/cache-line.md",
     "docs/diagrams/lesson-1.2/cpu-cache.md",
     "docs/glossary/CAP Theorem.md",
     "docs/mistakes/array vs link-list.md",
     "docs/mindset/0001.md",
     "cpp/stl/sort.md",
-    "computer-sience/algorithms/sorting/sort_algorithms.go",
-    "computer-sience/algorithms/sorting/sorting_test.go",
-    "computer-sience/algorithms/sorting/sorting.go",
     "cpp/README.md",
     "docs/glossary/slection-sort.md",
     "docs/glossary/bubble-sort.md",
@@ -275,9 +254,6 @@
     "docs/interview/dynamic-arrays-amortized-growth.md",
     "docs/glossary/ring-buffer.md",
     "docs/glossary/spatial-locality.md",
-    "docs/glossary/contiguous-memory.md",
-    "docs/glossary/capacity.md",
-    "docs/glossary/pointer-chasing.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",

@@ -1,4 +1,3 @@
-# Pointer Chasing
 
 ## Definition
 
