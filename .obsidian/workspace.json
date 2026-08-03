@@ -218,6 +218,8 @@
   },
   "active": "84fb9cbc8bc6d9b6",
   "lastOpenFiles": [
+    "computer-sience/algorithms/sorting/__debug_bin368823581",
+    "computer-sience/algorithms/sorting/__pycache__/merge_sort.cpython-310.pyc",
     "computer-sience/algorithms/sorting/merge_sort.py",
     "computer-sience/algorithms/sorting/__debug_bin3241684373",
     "computer-sience/algorithms/sorting/__debug_bin2069285196",
@@ -234,8 +236,6 @@
     "computer-sience/algorithms/sorting/cpp_sorting/CMakeLists.txt",
     "computer-sience/algorithms/sorting/cpp_sorting/sorting.hpp",
     "computer-sience/algorithms/sorting/cpp_sorting/sorting.cpp",
-    "computer-sience/algorithms/sorting/cpp_sorting/cpp_tests/sorting_test.cpp",
-    "computer-sience/algorithms/sorting/cpp_sorting/cpp_tests/CMakeLists.txt",
     "docs/notes/lesson-1.6.2-merge-sort.md",
     "docs/glossary/PDQSort.md",
     "docs/README.md",
