@@ -7,19 +7,23 @@ import (
 func merge[T cmp.Ordered](arr []T, left, mid, rigth int) {
 	nl := mid - left + 1
 	nr := rigth - mid
+
 	// create temp arrays
 	leftArr := make([]T, nl)
 	rigthArr := make([]T, nr)
 
 	// copy data to temp arrays
-	for i := range nr {
+	for i := range nl {
 		leftArr[i] = arr[left+i]
 	}
-	for j := range nl {
-		leftArr[j] = arr[mid+j]
+
+	for j := range nr {
+		leftArr[j] = arr[mid+j+1]
 	}
 
-	i, j, k := 0, 0, left
+	i := 0
+	j := 0
+	k := left
 
 	// merge the temp array back
 	for i < nl && j < nr {
@@ -48,11 +52,11 @@ func merge[T cmp.Ordered](arr []T, left, mid, rigth int) {
 	}
 }
 
-func mergSort[T cmp.Ordered](arr []T, left, rigth int) {
-	if left < rigth {
-		mid := (left + rigth) / 2
+func mergSort[T cmp.Ordered](arr []T, left, right int) {
+	if left < right {
+		mid := left + (right-left)/2 // Prevents potential integer overflow
 		mergSort(arr, left, mid)
-		mergSort(arr, mid+1, rigth)
-		merge(arr, left, mid, rigth)
+		mergSort(arr, mid+1, right)
+		merge(arr, left, mid, right)
 	}
 }
