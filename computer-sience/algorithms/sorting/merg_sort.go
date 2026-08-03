@@ -18,7 +18,7 @@ func merge[T cmp.Ordered](arr []T, left, mid, rigth int) {
 	}
 
 	for j := range nr {
-		leftArr[j] = arr[mid+j+1]
+		rigthArr[j] = arr[mid+1+j]
 	}
 
 	i := 0
