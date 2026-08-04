@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c97dde80212a3cbd",
+        "id": "cfac72cfa4fa33bb",
         "type": "tabs",
         "children": [
           {
-            "id": "4fd09f035e837421",
+            "id": "1a7f2350d091de66",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "docs/notes/lesson-1.6.3-quick-sort.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "lesson-1.6.3-quick-sort"
             }
           }
         ]
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md",
+                "file": "docs/notes/lesson-1.6.3-quick-sort.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -205,7 +205,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5
+    "width": 402.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,13 +221,14 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "4fd09f035e837421",
+  "active": "1a7f2350d091de66",
   "lastOpenFiles": [
-    "ROADMAP.md",
-    "docs/notes/lesson-1.6.3-quick-sort.md",
     "docs/notes/lesson-1.6.2-merge-sort.md",
-    "docs/notes/lesson-1.6.1-sorting.md",
     "docs/interview/sorting-merge-sort.md",
+    "docs/notes/lesson-1.6.3-quick-sort.md",
+    "README.md",
+    "ROADMAP.md",
+    "docs/notes/lesson-1.6.1-sorting.md",
     "docs/glossary/array.md",
     "computer-sience/algorithms/sorting/benchmark_test.go",
     "computer-sience/algorithms/sorting/__debug_bin295266209",
@@ -257,7 +259,6 @@
     "docs/glossary/bubble-sort.md",
     "docs/glossary/cpu-prefetch.md",
     "docs/interview/dynamic-arrays-amortized-growth.md",
-    "docs/glossary/ring-buffer.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",

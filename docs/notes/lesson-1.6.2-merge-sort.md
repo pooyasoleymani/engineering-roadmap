@@ -185,7 +185,7 @@ For eight elements:
        /   \         /   \
       2     2       2     2
      / \   / \     / \   / \
-    1  1  1  1    1  1  1  1
+    1   1 1   1    1  1  1  1
 ```
 
 Height
@@ -489,3 +489,11 @@ Merge Sort is widely used in:
 
 No algorithm is universally best. The right choice depends on workload.
 
+
+
+---
+
+## Summery
+
+- Merge Sort recursively divides the problem into smaller `subproblems` until each contains one element (already sorted), then combines the sorted `subproblems` by merging them into larger sorted sequences.
+- Merge sort  Recursion Tree have `log(n)` level and every level have `n` work then complexity in merge sort is `n log(n)` 
