@@ -2,7 +2,8 @@
 Date: 2026-08-02
 tags:
   - software_engineering
-Related:
+Related: "[[sorting-merge-sort]]"
+Next: "[[lesson-1.6.3-quick-sort]]"
 ---
 ---
 ## Objective

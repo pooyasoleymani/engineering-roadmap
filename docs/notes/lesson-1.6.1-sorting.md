@@ -2,7 +2,8 @@
 Date: 2026-07-26
 tags:
   - software_engineering
-Next:
+Related: "[[sorting-fundamental]]"
+Next: "[[lesson-1.6.2-merge-sort]]"
 ---
 ---
 # Fundamentals of Sorting
