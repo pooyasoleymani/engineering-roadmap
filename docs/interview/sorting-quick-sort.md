@@ -129,4 +129,31 @@ Quick Sort use contiguous memory then:
 
 ## A
 
-Quick sort swap in every 
+During partitioning, equal elements may move relative to each other.
+
+
+---
+
+## Q 
+
+- What problem does Introsort solve?
+
+## A
+
+Stack over flow 
+The recursion depth is monitored if executes a threshold the algorithm switches to heap sort.
+
+---
+
+## Q
+
+- What improvements does PDQSort add over classic Quick Sort?
+
+
+## A
+
+- Better pivot selection
+- Handles duplicates efficiently
+- Detects nearly sorted input 
+- Reduces branch mispredictions
+- Avoids common Quick Sort worst cases
