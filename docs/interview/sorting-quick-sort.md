@@ -129,4 +129,4 @@ Quick Sort use contiguous memory then:
 
 ## A
 
-Quick sort 
+Quick sort swap in every 
