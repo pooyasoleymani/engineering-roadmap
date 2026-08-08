@@ -8,7 +8,7 @@
 
 ## A
 
-Because Without partitioning Quick Sort just recursion
+Partitioning rearranges the array around a pivot so that every element on one side satisfies the ordering condition relative to the pivot, and the pivot reaches its final position. The recursive calls then solve the two remaining subproblems.
 
 
 
@@ -22,11 +22,13 @@ Because Without partitioning Quick Sort just recursion
 ## A
 
 
-|        | Hoare        | Lomuto             |
-| ------ | ------------ | ------------------ |
-| swaps  | If necessary | Very swaps         |
-| memory | If necessary | Very memory writes |
-
+|                      | Hoare                          | Lomuto                         |
+| -------------------- | ------------------------------ | ------------------------------ |
+| Swaps                | Usually fewer                  | Usually more                   |
+| Memory writes        | Usually fewer                  | Usually more                   |
+| Implementation       | More subtle                    | Simpler                        |
+| Pivot placement      | Not necessarily final position | Pivot ends in final position   |
+| Typical teaching use | More advanced                  | Common textbook implementation |
 
 ---
 
@@ -102,7 +104,25 @@ O(n²)
 
 ## A
 
-If we have sorted elements randomize pivot reduce chance of select last element as pivot
+It makes consistently bad partitions unlikely.
+
+For example, a good partition might look like:
+
+```
+        pivot
+       /     \
+     45%     55%
+```
+
+while a bad partition looks like:
+
+```
+        pivot
+       /
+     99%
+```
+
+Randomization makes the sequence of bad partitions statistically unlikely.
 
 
 ---
@@ -114,10 +134,7 @@ If we have sorted elements randomize pivot reduce chance of select last element 
 
 ## A
 
-Quick Sort use contiguous memory then:
-
-1. Better Cache locality
-2. Better hardware prefetching
+Sort often performs well because partitioning is mostly sequential and in-place, giving good cache locality and low auxiliary-memory traffic. Merge Sort requires additional memory and substantial copying during merging.
 
 
 ---
@@ -129,7 +146,7 @@ Quick Sort use contiguous memory then:
 
 ## A
 
-During partitioning, equal elements may move relative to each other.
+Partitioning can move equal elements relative to each other.
 
 
 ---
@@ -140,8 +157,31 @@ During partitioning, equal elements may move relative to each other.
 
 ## A
 
-Stack over flow 
-The recursion depth is monitored if executes a threshold the algorithm switches to heap sort.
+Introsort starts with Quick Sort:
+
+```
+Quick Sort
+     ↓
+monitor recursion depth
+     ↓
+too deep?
+     ↓
+Heap Sort
+```
+
+Heap Sort guarantees:
+
+```
+O(n log n)
+```
+
+So Introsort combines:
+
+```
+Quick Sort's average performance
++
+Heap Sort's worst-case guarantee
+```
 
 ---
 
@@ -157,3 +197,56 @@ The recursion depth is monitored if executes a threshold the algorithm switches 
 - Detects nearly sorted input 
 - Reduces branch mispredictions
 - Avoids common Quick Sort worst cases
+
+
+
+---
+
+## Senior Engineer Challenge
+
+You're building a log-processing service that sorts **100 million log entries** in memory.
+
+Characteristics:
+
+- 95% of the data is already sorted.
+- Many entries have identical timestamps.
+- Low memory overhead is required.
+- Throughput is more important than latency.
+
+
+
+## A
+
+1. No I would prefer PDQSort because the workload is highly structured: 95% of the data is already sorted, and there are many duplicate keys. PDQSort is designed to perform well on such patterns while maintaining low memory overhead.
+2. A naïve two-way Quick Sort can repeatedly produce terrible partitions.
+For example:
+
+```
+5 | 5 5 5 5 5 5 5
+```
+
+then:
+
+```
+5 | 5 5 5 5 5
+```
+
+etc.
+
+That can approach:
+
+```
+O(n²)
+```
+
+Good Quick Sort implementations therefore handle equal keys specially, often using **three-way partitioning** or related techniques.
+
+or related techniques.
+1. PDQSort :
+	1. Handles duplicates efficiently
+	2. Better pivot selection
+	3. avoid Quick sort worst case
+	4. Detects nearly sorted input 
+	5. Reduces branch mispredictions
+2. Stability is only useful if the original relative order of equal timestamps has semantic meaning. The presence of duplicates alone does not require a stable sort.
+3. if dataset grows beyond RAM we most use external sorting strategy like merge sort.

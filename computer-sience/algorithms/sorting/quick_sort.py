@@ -1,6 +1,6 @@
-from typing import Iterable, Any, Sequence
+from typing import MutableSequence
 
-def _partition(data: Iterable, low: int, high: int) -> int:
+def _partition(data: MutableSequence, low: int, high: int) -> int:
     pivot = data[high]
     
     i = low - 1 # index
@@ -11,10 +11,14 @@ def _partition(data: Iterable, low: int, high: int) -> int:
             _swap(data, i, j)
     
     _swap(data, i + 1, high)
-    return 
+    # return posiotion
+    return i + 1
 
-def quick_sort(data: Iterable) -> None:
-    pass
+def quick_sort(data: MutableSequence, low: int, high: int) -> None:
+    if low < high:
+        pos = _partition(data, low, high)
+        quick_sort(data, low, pos -1)
+        quick_sort(data, pos + 1, high)
 
-def _swap(data: Sequence[Any], i: int, j: int) -> None:
+def _swap(data: MutableSequence, i: int, j: int) -> None:
     data[i], data[j] = data[j], data[i]

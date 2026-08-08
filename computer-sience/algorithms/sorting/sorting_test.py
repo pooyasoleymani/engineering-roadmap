@@ -2,7 +2,7 @@ from unittest import TestCase
 import unittest
 from sorting import *
 from merge_sort import mergeSort
-from quick_sort import quick_sort, Lomuto
+from quick_sort import quick_sort
 
 class TestSorting(TestCase):
     def setUp(self):
@@ -29,7 +29,7 @@ class TestSorting(TestCase):
                     
                     
     def test_quick_sort(self) -> None:
-        quick_sort(self.data, Lomuto)
+        quick_sort(self.data, 1, len(self.data) -1 )
         self.assertEqual(self.data, self.expected)
     
 if __name__ == "__main__":

@@ -2,8 +2,7 @@
 Date: 2026-08-04
 tags:
   - software_engineering
-Related:
-Next:
+Next: "[[lesson-1.6.4-heap-sort]]"
 ---
 ---
 ## Objective 
@@ -716,23 +715,30 @@ Focus on **why** runtime libraries evolved beyond textbook Quick Sort.
 
 ---
 
-## Senior Engineer Challenge
+## The Most Important Lesson
 
-You're building a log-processing service that sorts **100 million log entries** in memory.
+Your Quick Sort lesson isn't really about Quick Sort.
 
-Characteristics:
+It's this:
 
-- 95% of the data is already sorted.
-- Many entries have identical timestamps.
-- Low memory overhead is required.
-- Throughput is more important than latency.
+> **A theoretically good algorithm can become a bad production algorithm when its assumptions don't match the workload.**
 
-Questions:
+Examples:
 
-1. Would you choose classic Quick Sort? Why or why not?
-2. How could many duplicate keys hurt a naïve Quick Sort implementation?
-3. Why would PDQSort likely outperform textbook Quick Sort on this workload?
-4. Would a stable sort provide any benefit here? Explain your reasoning.
-5. If the dataset grows beyond RAM, how would your sorting strategy change?
+```
+Quick Sort
+    +
+better pivot selection
+    +
+duplicate handling
+    +
+small-array optimization
+    +
+pattern detection
+    +
+fallback strategy
+    ↓
+PDQSort / Introsort
+```
 
-This scenario reflects the kinds of trade-offs engineers make when designing high-performance backend and data-processing systems.
+

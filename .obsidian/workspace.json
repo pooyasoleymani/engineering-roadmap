@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/interview/sorting-quick-sort.md",
+                "file": "docs/notes/lesson-1.6.4-heap-sort.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "sorting-quick-sort"
+              "title": "lesson-1.6.4-heap-sort"
             }
           }
         ]
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/interview/sorting-quick-sort.md",
+                "file": "docs/notes/lesson-1.6.4-heap-sort.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -223,10 +223,13 @@
   },
   "active": "1a7f2350d091de66",
   "lastOpenFiles": [
+    "docs/notes/lesson-1.6.3-quick-sort.md",
+    "docs/notes/lesson-1.6.4-heap-sort.md",
+    "docs/interview/sorting-quick-sort.md",
+    "docs/mindset/0002.md",
+    "docs/mindset/0001.md",
     "computer-sience/algorithms/sorting/__pycache__/quick_sort.cpython-310.pyc",
     "computer-sience/algorithms/sorting/quick_sort.py",
-    "docs/notes/lesson-1.6.3-quick-sort.md",
-    "docs/interview/sorting-quick-sort.md",
     "docs/interview/sorting-merge-sort.md",
     "docs/notes/lesson-1.6.2-merge-sort.md",
     "docs/interview/sorting-fundamental.md",
@@ -245,7 +248,6 @@
     "computer-sience/algorithms/sorting/merge_sort.py",
     "computer-sience/algorithms/sorting/__debug_bin3241684373",
     "computer-sience/algorithms/sorting/__debug_bin2069285196",
-    "computer-sience/algorithms/sorting/__debug_bin1370789639",
     "docs/glossary/pointer-chasing.md",
     "docs/glossary/contiguous-memory.md",
     "docs/glossary/cache-line.md",
@@ -257,8 +259,6 @@
     "docs/diagrams/lesson-1.2/cpu-cache.md",
     "docs/glossary/CAP Theorem.md",
     "docs/mistakes/array vs link-list.md",
-    "docs/mindset/0001.md",
-    "cpp/stl/sort.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
