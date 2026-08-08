@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/notes/lesson-1.6.3-quick-sort.md",
+                "file": "docs/interview/sorting-quick-sort.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lesson-1.6.3-quick-sort"
+              "title": "sorting-quick-sort"
             }
           }
         ]
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/lesson-1.6.3-quick-sort.md",
+                "file": "docs/interview/sorting-quick-sort.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -205,7 +205,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5
+    "width": 402.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,12 +223,13 @@
   },
   "active": "1a7f2350d091de66",
   "lastOpenFiles": [
-    "docs/notes/lesson-1.6.2-merge-sort.md",
     "docs/notes/lesson-1.6.3-quick-sort.md",
+    "docs/interview/sorting-quick-sort.md",
+    "docs/interview/sorting-merge-sort.md",
+    "docs/notes/lesson-1.6.2-merge-sort.md",
     "docs/interview/sorting-fundamental.md",
     "docs/interview/memory-layout.md",
     "docs/interview/dynamic-arrays-amortized-growth.md",
-    "docs/interview/sorting-merge-sort.md",
     "docs/notes/lesson-1.5-binary-search.md",
     "README.md",
     "ROADMAP.md",
@@ -257,7 +259,6 @@
     "docs/mindset/0001.md",
     "cpp/stl/sort.md",
     "cpp/README.md",
-    "docs/glossary/slection-sort.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
