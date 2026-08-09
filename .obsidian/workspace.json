@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/notes/lesson-1.5-binary-search.md",
+                "file": "docs/notes/lesson-1.6.4-heap-sort.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lesson-1.5-binary-search"
+              "title": "lesson-1.6.4-heap-sort"
             }
           }
         ]
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/lesson-1.5-binary-search.md",
+                "file": "docs/notes/lesson-1.6.4-heap-sort.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -223,8 +223,8 @@
   },
   "active": "1a7f2350d091de66",
   "lastOpenFiles": [
-    "docs/glossary/B-tree.md",
     "docs/notes/lesson-1.5-binary-search.md",
+    "docs/glossary/B-tree.md",
     "docs/notes/lesson-1.6.4-heap-sort.md",
     "docs/notes/lesson-1.6.3-quick-sort.md",
     "docs/interview/sorting-quick-sort.md",
