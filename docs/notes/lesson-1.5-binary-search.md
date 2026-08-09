@@ -395,7 +395,7 @@ Binary search works whenever the predicate is *monotonic*—not just on sorted a
 
 
 ---
-# Real Engineering Examples
+## Real Engineering Examples
 
 Find minimum:
 
@@ -409,7 +409,7 @@ Find minimum:
 If the answer space is monotonic, binary search applies.
 
 ---
-# Branch Prediction
+## Branch Prediction
 
 Modern CPUs try to guess:
 
@@ -424,7 +424,7 @@ Random searches are harder to predict.
 This is one reason *branchless* search techniques exist in *high-performance* code.
 
 ---
-# Binary Search Inside a B-Tree
+## Binary Search Inside a B-Tree
 
 Suppose a [[b-tree]] node stores
 
@@ -449,7 +449,7 @@ So binary search is used _inside_ larger data structures, not just on standalone
 
 ---
 
-# Common Mistakes
+## Common Mistakes
 
 1. Incorrect loop condition (`low < high` vs. `low <= high`).
 2. Overflow when computing `mid`.
@@ -461,7 +461,7 @@ So binary search is used _inside_ larger data structures, not just on standalone
 
 ---
 
-# Trade-offs
+## Trade-offs
 
 | Algorithm     | Lookup   | Ordered Data | Range Queries |
 | ------------- | -------- | ------------ | ------------- |
@@ -474,7 +474,7 @@ This table should immediately suggest why databases favor B-trees over hash tabl
 
 ---
 
-# Summery
+## Summery
 
 1. Binary search is about eliminating impossible regions
 2. Loop invariants guarantee correctness
