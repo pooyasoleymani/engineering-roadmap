@@ -205,7 +205,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5
+    "width": 402.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,7 +221,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "3c660572df5ae446",
+  "active": "1a7f2350d091de66",
   "lastOpenFiles": [
     "docs/glossary/B-tree.md",
     "docs/notes/lesson-1.5-binary-search.md",
