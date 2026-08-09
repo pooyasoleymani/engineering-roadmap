@@ -202,7 +202,7 @@ We need to restore the invariant.
 
 ---
 
-# 5. Sift Down
+## Sift Down
 
 Suppose:
 
