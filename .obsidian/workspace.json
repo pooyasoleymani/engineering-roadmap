@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/notes/lesson-1.6.4-heap-sort.md",
+                "file": "docs/interview/sorting-quick-sort.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lesson-1.6.4-heap-sort"
+              "title": "sorting-quick-sort"
             }
           }
         ]
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/lesson-1.6.4-heap-sort.md",
+                "file": "docs/interview/sorting-quick-sort.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -223,11 +223,11 @@
   },
   "active": "1a7f2350d091de66",
   "lastOpenFiles": [
+    "docs/notes/lesson-1.6.4-heap-sort.md",
+    "docs/interview/sorting-quick-sort.md",
     "docs/notes/lesson-1.5-binary-search.md",
     "docs/glossary/B-tree.md",
-    "docs/notes/lesson-1.6.4-heap-sort.md",
     "docs/notes/lesson-1.6.3-quick-sort.md",
-    "docs/interview/sorting-quick-sort.md",
     "docs/mindset/0002.md",
     "docs/mindset/0001.md",
     "computer-sience/algorithms/sorting/__pycache__/quick_sort.cpython-310.pyc",
