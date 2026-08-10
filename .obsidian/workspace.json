@@ -223,6 +223,7 @@
   },
   "active": "1a7f2350d091de66",
   "lastOpenFiles": [
+    "benchmarks/searching/linear-vs-binary-search.md",
     "build/CMakeFiles/cmake.check_cache",
     "build/CMakeCache.txt",
     "build/CMakeFiles/4.0.3/CMakeDetermineCompilerABI_CXX.bin",
@@ -233,7 +234,6 @@
     "build/CMakeFiles/CMakeScratch/TryCompile-dXAGvj/CMakeFiles/cmTC_92804.dir/depend.make",
     "build/CMakeFiles/CMakeScratch/TryCompile-dXAGvj/CMakeFiles/cmTC_92804.dir/compiler_depend.ts",
     "build/CMakeFiles/CMakeScratch/TryCompile-dXAGvj/CMakeFiles/cmTC_92804.dir/compiler_depend.make",
-    "build/CMakeFiles/CMakeScratch/TryCompile-dXAGvj/CMakeFiles/cmTC_92804.dir/cmake_clean.cmake",
     "docs/notes/lesson-1.6.4-heap-sort.md",
     "docs/interview/sorting-quick-sort.md",
     "docs/notes/lesson-1.5-binary-search.md",
