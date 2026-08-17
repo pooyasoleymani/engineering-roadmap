@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/interview/sorting-quick-sort.md",
+                "file": "docs/notes/lesson-1.6.4-heap-sort.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "sorting-quick-sort"
+              "title": "lesson-1.6.4-heap-sort"
             }
           }
         ]
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/interview/sorting-quick-sort.md",
+                "file": "docs/notes/lesson-1.6.4-heap-sort.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -217,24 +217,25 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false
     }
   },
   "active": "1a7f2350d091de66",
   "lastOpenFiles": [
-    "benchmarks/searching/linear-vs-binary-search.md",
-    "build/CMakeFiles/cmake.check_cache",
-    "build/CMakeCache.txt",
-    "build/CMakeFiles/4.0.3/CMakeDetermineCompilerABI_CXX.bin",
-    "build/CMakeFiles/CMakeScratch/TryCompile-dXAGvj/cmTC_92804",
-    "build/CMakeFiles/CMakeScratch/TryCompile-dXAGvj/CMakeFiles/cmTC_92804.dir/progress.make",
-    "build/CMakeFiles/CMakeScratch/TryCompile-dXAGvj/CMakeFiles/cmTC_92804.dir/link.txt",
-    "build/CMakeFiles/CMakeScratch/TryCompile-dXAGvj/CMakeFiles/cmTC_92804.dir/flags.make",
-    "build/CMakeFiles/CMakeScratch/TryCompile-dXAGvj/CMakeFiles/cmTC_92804.dir/depend.make",
-    "build/CMakeFiles/CMakeScratch/TryCompile-dXAGvj/CMakeFiles/cmTC_92804.dir/compiler_depend.ts",
-    "build/CMakeFiles/CMakeScratch/TryCompile-dXAGvj/CMakeFiles/cmTC_92804.dir/compiler_depend.make",
-    "docs/notes/lesson-1.6.4-heap-sort.md",
     "docs/interview/sorting-quick-sort.md",
+    "computer-sience/algorithms/sorting/heap_sort.py",
+    "build/CMakeCache.txt",
+    "build/CMakeCache.txt.tmp1f3dc",
+    "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/cmTC_ccc4c",
+    "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/cmTC_ccc4c.dir/CMakeCXXCompilerABI.cpp.o",
+    "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/InstallScripts.json",
+    "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/Makefile2",
+    "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/progress.marks",
+    "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/cmTC_ccc4c.dir/progress.make",
+    "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/TargetDirectories.txt",
+    "benchmarks/searching/linear-vs-binary-search.md",
+    "docs/notes/lesson-1.6.4-heap-sort.md",
     "docs/notes/lesson-1.5-binary-search.md",
     "docs/glossary/B-tree.md",
     "docs/notes/lesson-1.6.3-quick-sort.md",
@@ -257,7 +258,6 @@
     "docs/glossary/PDQSort.md",
     "docs/README.md",
     "docs/glossary/distributed-systems.md",
-    "docs/diagrams/lesson-1.2/cpu-cache.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",

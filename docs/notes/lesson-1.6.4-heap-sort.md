@@ -246,7 +246,7 @@ heapify
 
 ---
 
-# 6. Sift Up
+##  Sift Up
 
 Now imagine inserting:
 
@@ -314,7 +314,7 @@ siftUp
 
 ---
 
-# 7. Complexity of Heap Operations
+## Complexity of Heap Operations
 
 The heap height is:
 
@@ -358,7 +358,7 @@ extract    O(log n)
 
 ---
 
-# 8. Priority Queue
+## Priority Queue
 
 A **priority queue** is an abstract data type where each element has a priority.
 
@@ -388,7 +388,7 @@ A heap is one of the most common implementations of a priority queue.
 
 ---
 
-# 9. Real-World Example — Job Scheduler
+## Real-World Example — Job Scheduler
 
 Imagine a server receives:
 
@@ -422,24 +422,18 @@ This is much more appropriate than repeatedly sorting the entire task list.
 
 ---
 
-# 10. Heap Sort
+## Heap Sort
 
 Now we can use a heap to sort.
 
 For ascending order:
 
 1. Build a max-heap.
-    
 2. Largest element is at root.
-    
 3. Move root to the end.
-    
 4. Reduce heap size.
-    
 5. Restore heap property.
-    
 6. Repeat.
-    
 
 Example:
 
@@ -485,7 +479,7 @@ Eventually:
 
 ---
 
-# 11. Heap Sort Complexity
+## Heap Sort Complexity
 
 Building the heap:
 
@@ -537,7 +531,8 @@ This is one of its biggest advantages.
 
 ---
 
-# 12. The Important Interview Question
+
+## The Important Interview Question
 
 ## Why is Build Heap O(n), not O(n log n)?
 
@@ -591,7 +586,7 @@ You must understand **how the work is distributed**.
 
 ---
 
-# 13. Heap Sort vs Quick Sort
+## Heap Sort vs Quick Sort
 
 Both can sort in:
 
@@ -640,7 +635,7 @@ This is an excellent example of:
 
 ---
 
-# 14. Priority Queue vs Sorting
+## Priority Queue vs Sorting
 
 Suppose you have:
 
@@ -686,7 +681,7 @@ This is an important data-structure selection principle:
 
 ---
 
-# 15. Top-K Problems
+## Top-K Problems
 
 Suppose you have:
 
@@ -738,7 +733,7 @@ This pattern appears constantly in real backend and data-processing systems.
 
 ---
 
-# 16. Go
+## Go
 
 Go provides:
 
