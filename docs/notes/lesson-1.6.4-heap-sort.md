@@ -758,7 +758,7 @@ Later, we'll implement a production-style priority queue using it.
 
 ---
 
-# 17. C++
+## C++
 
 C++ provides:
 
@@ -792,7 +792,7 @@ std::priority_queue<
 
 ---
 
-# 18. Python
+## Python
 
 Python provides:
 
@@ -824,7 +824,7 @@ Result:
 
 ---
 
-# 19. Heap Use Cases
+## Heap Use Cases
 
 Remember these.
 
@@ -870,15 +870,15 @@ Task scheduling and delayed jobs.
 
 ---
 
-# 20. Heap Trade-offs
+## Heap Trade-offs
 
-|Operation|Complexity|
-|---|--:|
-|Peek|O(1)|
-|Insert|O(log n)|
-|Extract|O(log n)|
-|Search arbitrary element|O(n)|
-|Build Heap|O(n)|
+| Operation                | Complexity |
+| ------------------------ | ---------: |
+| Peek                     |       O(1) |
+| Insert                   |   O(log n) |
+| Extract                  |   O(log n) |
+| Search arbitrary element |       O(n) |
+| Build Heap               |       O(n) |
 
 A heap is **not** a general-purpose sorted structure.
 
@@ -896,36 +896,26 @@ a heap is an excellent choice.
 
 ---
 
-# Exercises
+## Exercises
 
 ## Theory
 
 Answer these in your own words:
 
 1. What is the heap invariant?
-    
 2. Why can a binary heap be represented efficiently using an array?
-    
 3. Why is `peek()` O(1)?
-    
 4. Why are insertion and extraction O(log n)?
-    
 5. What is the difference between `siftUp` and `siftDown`?
-    
 6. Why is bottom-up Build Heap O(n)?
-    
 7. Why is Heap Sort O(n log n)?
-    
 8. Why is Heap Sort usually slower than Quick Sort despite the same O(n log n) complexity?
-    
 9. Why is a heap useful for a priority queue?
-    
 10. Why can a heap solve Top-K problems in O(n log k)?
-    
 
 ---
 
-# Go Exercise
+## Go Exercise
 
 Implement your own **MinHeap** without using `container/heap` initially.
 
@@ -945,23 +935,14 @@ func (h *MinHeap[T]) Len() int
 Requirements:
 
 - Implement `siftUp`.
-    
 - Implement `siftDown`.
-    
 - Maintain the heap invariant.
-    
 - Write unit tests.
-    
 - Test empty heap.
-    
 - Test one element.
-    
 - Test duplicates.
-    
 - Test already sorted input.
-    
 - Test reverse sorted input.
-    
 
 Then implement:
 
@@ -979,7 +960,7 @@ slices.Sort
 
 ---
 
-# Python Exercise
+## Python Exercise
 
 Implement:
 
@@ -998,7 +979,7 @@ heapq
 
 ---
 
-# C++ Exercise
+## C++ Exercise
 
 Implement:
 
@@ -1022,7 +1003,7 @@ std::priority_queue
 
 ---
 
-# Senior Engineer Challenge
+## Senior Engineer Challenge
 
 You are designing a job scheduler.
 
@@ -1044,26 +1025,17 @@ deadline
 Requirements:
 
 1. Always execute the highest-priority job.
-    
 2. If two jobs have the same priority, execute the oldest first.
-    
 3. New jobs arrive continuously.
-    
 4. You cannot repeatedly sort all 10 million jobs.
-    
 5. You need efficient insertion and removal.
-    
 
 ### Questions
 
 **A.** What data structure would you choose?
-
 **B.** What should the comparison rule be?
-
 **C.** What is the complexity of inserting a job?
-
 **D.** What is the complexity of selecting/removing the next job?
-
 **E.** How would you handle this ordering?
 
 ```text

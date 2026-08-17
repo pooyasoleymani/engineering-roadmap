@@ -1,6 +1,6 @@
 from typing import List, TypeVar
 import heapq
-
+import heapq
 
 T = TypeVar("T")
 
