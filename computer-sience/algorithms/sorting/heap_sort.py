@@ -4,7 +4,7 @@ T = TypeVar("T")
 
 class MinHeap:
     def __init__(self, data: List[T]) -> None:
-        self.data: List[T]
+        self.data: List[T] = []
         for item in data:
             self.push(item)    
     
@@ -12,10 +12,12 @@ class MinHeap:
         self.data[i], self.data[j] = self.data[j], self.data[i]
     
     def _shift_up(self, index: int) -> None:
+        parent = (index -1)
         if index < 1:
             return
-        elif parent := (index -1) // 2 and self.data[parent] < self.data[index]:
+        elif self.data[parent] < self.data[index]:
             self._swap(parent, index)
+            self._shift_up(parent)
         
     def _shift_down(self, index: int) -> None:
         left = 2 * index + 1
@@ -30,6 +32,7 @@ class MinHeap:
         
         if largest != index:
             self._swap(largest, index)
+            self._shift_down(largest)
         
     def push(self, item: T) -> None:
         self.data.append(item)
@@ -50,3 +53,20 @@ class MinHeap:
         self._shift_down(size - 1)
         
         return minimum
+    
+    def __str__(self):
+        return str(self.data)
+    
+    
+
+if __name__ == "__main__":
+    data = [1, 2, 4, 5, 7, 9]
+    min_heap = MinHeap(data=data)
+    print(min_heap)
+    
+    print(min_heap.peek())
+    print(min_heap.pop())
+    min_heap.push(12)
+    min_heap.push(1)
+    
+    print(min_heap)
