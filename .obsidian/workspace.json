@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/notes/lesson-1.6.4-heap-sort.md",
+                "file": "cpp/stl/sort.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lesson-1.6.4-heap-sort"
+              "title": "sort"
             }
           }
         ]
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/lesson-1.6.4-heap-sort.md",
+                "file": "cpp/stl/sort.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -196,8 +196,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -205,8 +205,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5,
-    "collapsed": true
+    "width": 402.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,11 +216,14 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "copilot:Open Copilot Chat": false
     }
   },
   "active": "1a7f2350d091de66",
   "lastOpenFiles": [
+    "cpp/01-cpp-fundumental",
+    "docs/notes/lesson-1.6.4-heap-sort.md",
     "docs/interview/sorting-quick-sort.md",
     "computer-sience/algorithms/sorting/heap_sort.py",
     "build/CMakeCache.txt",
@@ -234,7 +236,6 @@
     "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/cmTC_ccc4c.dir/progress.make",
     "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/TargetDirectories.txt",
     "benchmarks/searching/linear-vs-binary-search.md",
-    "docs/notes/lesson-1.6.4-heap-sort.md",
     "docs/notes/lesson-1.5-binary-search.md",
     "docs/glossary/B-tree.md",
     "docs/notes/lesson-1.6.3-quick-sort.md",

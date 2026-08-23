@@ -32,11 +32,11 @@ void sort( ExecutionPolicy&& policy,
 
 ### Parameters
 
-|             |     |                                                                                                                                                                                                                                                                       |
-| ----------- | --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| first, last | -   | the pair of iterators defining the [range](https://en.cppreference.com/cpp/iterator#Ranges "cpp/iterator") of elements to sort                                                                                                                                        |
-| policy      | -   | the [execution policy](https://en.cppreference.com/cpp/algorithm/execution_policy_tag_t "cpp/algorithm/execution policy tag t") to use                                                                                                                                |
-| comp        | -   | comparison function object (i.e. an object that satisfies the requirements of [Compare](https://en.cppreference.com/cpp/named_req/Compare "cpp/named req/Compare")) which returns ​`true` if the first argument is _less_ than (i.e. is ordered _before_) the second. |
+|            |     |                                                                                                                                                                                                                                                                       |
+| ---------- | --- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| first,last | -   | the pair of iterators defining the [range](https://en.cppreference.com/cpp/iterator#Ranges "cpp/iterator") of elements to sort                                                                                                                                        |
+| policy     | -   | the [execution policy](https://en.cppreference.com/cpp/algorithm/execution_policy_tag_t "cpp/algorithm/execution policy tag t") to use                                                                                                                                |
+| comp       | -   | comparison function object (i.e. an object that satisfies the requirements of [Compare](https://en.cppreference.com/cpp/named_req/Compare "cpp/named req/Compare")) which returns ​`true` if the first argument is _less_ than (i.e. is ordered _before_) the second. |
 
 ### Complexity
 
