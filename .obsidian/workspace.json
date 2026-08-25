@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cpp/stl/sort.md",
+                "file": "cpp/01-cpp-fundumental/01-what -is-cpp-program.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "sort"
+              "title": "01-what -is-cpp-program"
             }
           }
         ]
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "cpp/stl/sort.md",
+                "file": "cpp/01-cpp-fundumental/01-what -is-cpp-program.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -205,7 +205,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5
+    "width": 402.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,8 +221,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "1a7f2350d091de66",
+  "active": "3c660572df5ae446",
   "lastOpenFiles": [
+    "cpp/stl/sort.md",
+    "cpp/01-cpp-fundumental/01-what -is-cpp-program.md",
     "cpp/01-cpp-fundumental",
     "docs/notes/lesson-1.6.4-heap-sort.md",
     "docs/interview/sorting-quick-sort.md",
@@ -234,7 +237,6 @@
     "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/Makefile2",
     "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/progress.marks",
     "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/cmTC_ccc4c.dir/progress.make",
-    "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/TargetDirectories.txt",
     "benchmarks/searching/linear-vs-binary-search.md",
     "docs/notes/lesson-1.5-binary-search.md",
     "docs/glossary/B-tree.md",
@@ -257,7 +259,6 @@
     "docs/glossary/cache-locality.md",
     "docs/glossary/PDQSort.md",
     "docs/README.md",
-    "docs/glossary/distributed-systems.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
