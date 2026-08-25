@@ -93,8 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5,
-    "collapsed": true
+    "width": 316.5
   },
   "right": {
     "id": "5eeb0b228988cff3",
@@ -206,7 +205,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5
+    "width": 402.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,6 +223,7 @@
   },
   "active": "1a7f2350d091de66",
   "lastOpenFiles": [
+    "experiments/senior-engineer-discussion/preallocate-vs-non-allocate.md",
     "cpp/01-cpp-fundumental/01-what -is-cpp-program.md",
     "cpp/stl/sort.md",
     "cpp/01-cpp-fundumental",
@@ -258,7 +259,6 @@
     "docs/glossary/cache-miss.md",
     "docs/glossary/cache-locality.md",
     "docs/glossary/PDQSort.md",
-    "docs/README.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
