@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 316.5
+    "width": 316.5,
+    "collapsed": true
   },
   "right": {
     "id": "5eeb0b228988cff3",
@@ -221,7 +222,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "3c660572df5ae446",
+  "active": "1a7f2350d091de66",
   "lastOpenFiles": [
     "cpp/stl/sort.md",
     "cpp/01-cpp-fundumental/01-what -is-cpp-program.md",
