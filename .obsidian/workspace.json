@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/mindset/0003.md",
+                "file": "docs/notes/lesson-1.6.4-heap-sort.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "0003"
+              "title": "lesson-1.6.4-heap-sort"
             }
           }
         ]
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/mindset/0003.md",
+                "file": "docs/notes/lesson-1.6.4-heap-sort.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -196,8 +196,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -205,7 +205,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5
+    "width": 402.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,15 +223,9 @@
   },
   "active": "1a7f2350d091de66",
   "lastOpenFiles": [
-    "docs/mindset/0002.md",
-    "docs/mindset/0001.md",
     "docs/mindset/0003.md",
-    "experiments/senior-engineer-discussion/searching-strategy-in-memory-paging.md",
-    "experiments/senior-engineer-discussion/preallocate-vs-non-allocate.md",
     "cpp/01-cpp-fundumental/01-what -is-cpp-program.md",
-    "cpp/stl/sort.md",
     "cpp/01-cpp-fundumental",
-    "docs/notes/lesson-1.6.4-heap-sort.md",
     "docs/interview/sorting-quick-sort.md",
     "computer-sience/algorithms/sorting/heap_sort.py",
     "build/CMakeCache.txt",
@@ -242,9 +237,12 @@
     "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/progress.marks",
     "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/cmTC_ccc4c.dir/progress.make",
     "benchmarks/searching/linear-vs-binary-search.md",
+    "docs/notes/lesson-1.6.4-heap-sort.md",
     "docs/notes/lesson-1.5-binary-search.md",
     "docs/glossary/B-tree.md",
     "docs/notes/lesson-1.6.3-quick-sort.md",
+    "docs/mindset/0002.md",
+    "docs/mindset/0001.md",
     "docs/interview/sorting-merge-sort.md",
     "docs/notes/lesson-1.6.2-merge-sort.md",
     "docs/interview/sorting-fundamental.md",
@@ -258,6 +256,9 @@
     "docs/glossary/contiguous-memory.md",
     "docs/glossary/cache-line.md",
     "docs/glossary/cache-miss.md",
+    "docs/glossary/cache-locality.md",
+    "docs/glossary/PDQSort.md",
+    "docs/README.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
