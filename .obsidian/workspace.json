@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/Projects.md",
+                "file": "docs/interview/binary-search.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Projects"
+              "title": "binary-search"
             }
           }
         ]
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/Projects.md",
+                "file": "docs/interview/binary-search.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -223,6 +223,10 @@
   },
   "active": "1a7f2350d091de66",
   "lastOpenFiles": [
+    "docs/interview/arrays.md",
+    "docs/mindset/0001.md",
+    "docs/mistakes/array vs link-list.md",
+    "templates/Projects.md",
     "templates/Lesson.md",
     "templates/Glossary.md",
     "docs/notes/lesson-1.6.4-heap-sort.md",
@@ -244,7 +248,6 @@
     "docs/glossary/B-tree.md",
     "docs/notes/lesson-1.6.3-quick-sort.md",
     "docs/mindset/0002.md",
-    "docs/mindset/0001.md",
     "docs/interview/sorting-merge-sort.md",
     "docs/notes/lesson-1.6.2-merge-sort.md",
     "docs/interview/sorting-fundamental.md",
@@ -256,9 +259,6 @@
     "docs/glossary/array.md",
     "docs/glossary/pointer-chasing.md",
     "docs/glossary/contiguous-memory.md",
-    "docs/glossary/cache-line.md",
-    "docs/glossary/cache-miss.md",
-    "docs/glossary/cache-locality.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
