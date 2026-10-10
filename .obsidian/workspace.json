@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/notes/lesson-1.6.4-heap-sort.md",
+                "file": "templates/Projects.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lesson-1.6.4-heap-sort"
+              "title": "Projects"
             }
           }
         ]
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/lesson-1.6.4-heap-sort.md",
+                "file": "templates/Projects.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -223,6 +223,9 @@
   },
   "active": "1a7f2350d091de66",
   "lastOpenFiles": [
+    "templates/Lesson.md",
+    "templates/Glossary.md",
+    "docs/notes/lesson-1.6.4-heap-sort.md",
     "docs/mindset/0003.md",
     "cpp/01-cpp-fundumental/01-what -is-cpp-program.md",
     "cpp/01-cpp-fundumental",
@@ -237,7 +240,6 @@
     "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/progress.marks",
     "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/cmTC_ccc4c.dir/progress.make",
     "benchmarks/searching/linear-vs-binary-search.md",
-    "docs/notes/lesson-1.6.4-heap-sort.md",
     "docs/notes/lesson-1.5-binary-search.md",
     "docs/glossary/B-tree.md",
     "docs/notes/lesson-1.6.3-quick-sort.md",
@@ -257,8 +259,6 @@
     "docs/glossary/cache-line.md",
     "docs/glossary/cache-miss.md",
     "docs/glossary/cache-locality.md",
-    "docs/glossary/PDQSort.md",
-    "docs/README.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
