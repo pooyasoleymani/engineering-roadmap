@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/notes/lesson-1.6.4-heap-sort.md",
+                "file": "docs/adr/0001-use-rabbitmq.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "lesson-1.6.4-heap-sort"
+              "title": "0001-use-rabbitmq"
             }
           }
         ]
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/notes/lesson-1.6.4-heap-sort.md",
+                "file": "docs/adr/0001-use-rabbitmq.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -223,8 +223,9 @@
   },
   "active": "1a7f2350d091de66",
   "lastOpenFiles": [
-    "docs/mindset/0003.md",
     "cpp/01-cpp-fundumental/01-what -is-cpp-program.md",
+    "docs/notes/lesson-1.6.4-heap-sort.md",
+    "docs/mindset/0003.md",
     "cpp/01-cpp-fundumental",
     "docs/interview/sorting-quick-sort.md",
     "computer-sience/algorithms/sorting/heap_sort.py",
@@ -237,7 +238,6 @@
     "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/progress.marks",
     "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/cmTC_ccc4c.dir/progress.make",
     "benchmarks/searching/linear-vs-binary-search.md",
-    "docs/notes/lesson-1.6.4-heap-sort.md",
     "docs/notes/lesson-1.5-binary-search.md",
     "docs/glossary/B-tree.md",
     "docs/notes/lesson-1.6.3-quick-sort.md",
