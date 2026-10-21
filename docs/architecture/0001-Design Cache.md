@@ -137,7 +137,7 @@ However, Operation 1 as stressed earlier is the most frequent ( by a huge margin
 **Q:** How would you implement HashMap?
 **A:** The HashMap itself could be implemented in multiple ways. One common way could be hashing with linked list (colliding values linked together in a linkedList) :
 
-Let's say our hashmap size is N and we wish to add (k,v) to it  
+Let's say our **hashmap** size is N and we wish to add (k,v) to it  
 Let H = size N array of pointers with every element initialized to NULL  
 For a given key k, generate g = hash(k) % N newEntry = LinkedList Node with value = v newEntry.next = H[g]  
 H[g] = newEntry
