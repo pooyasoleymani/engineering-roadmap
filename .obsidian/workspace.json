@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/architecture/0001-Design Cache.md",
+                "file": "docs/interview/binary-search.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "0001-Design Cache"
+              "title": "binary-search"
             }
           }
         ]
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/architecture/0001-Design Cache.md",
+                "file": "docs/interview/binary-search.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -196,8 +196,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -205,7 +205,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5
+    "width": 402.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -220,23 +221,19 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "1a7f2350d091de66",
+  "active": "3c660572df5ae446",
   "lastOpenFiles": [
-    "docs/mindset/0001.md",
     "docs/architecture/0001-Design Cache.md",
-    "docs/mindset/0002.md",
-    "docs/mindset/0003.md",
-    "experiments/senior-engineer-discussion/searching-strategy-in-memory-paging.md",
-    "experiments/senior-engineer-discussion/preallocate-vs-non-allocate.md",
-    "books/efficient-go/chapter-01.md",
-    "books/efficient-go/summary.md",
-    "books/efficient-go/questions.md",
-    "books/efficient-go/key-takeaways.md",
-    "docs/glossary/big-O.md",
+    "docs/architecture",
+    "docs/interview/arrays.md",
+    "docs/mindset/0001.md",
+    "docs/mistakes/array vs link-list.md",
+    "templates/Projects.md",
+    "templates/Lesson.md",
     "templates/Glossary.md",
-    "docs/adr/0001-use-rabbitmq.md",
-    "cpp/01-cpp-fundumental/01-what -is-cpp-program.md",
     "docs/notes/lesson-1.6.4-heap-sort.md",
+    "docs/mindset/0003.md",
+    "cpp/01-cpp-fundumental/01-what -is-cpp-program.md",
     "cpp/01-cpp-fundumental",
     "docs/interview/sorting-quick-sort.md",
     "computer-sience/algorithms/sorting/heap_sort.py",
@@ -247,17 +244,21 @@
     "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/InstallScripts.json",
     "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/Makefile2",
     "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/progress.marks",
-    "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/cmTC_ccc4c.dir/progress.make",
     "benchmarks/searching/linear-vs-binary-search.md",
     "docs/notes/lesson-1.5-binary-search.md",
     "docs/glossary/B-tree.md",
     "docs/notes/lesson-1.6.3-quick-sort.md",
+    "docs/mindset/0002.md",
     "docs/interview/sorting-merge-sort.md",
     "docs/notes/lesson-1.6.2-merge-sort.md",
     "docs/interview/sorting-fundamental.md",
     "docs/interview/memory-layout.md",
     "docs/interview/dynamic-arrays-amortized-growth.md",
     "README.md",
+    "ROADMAP.md",
+    "docs/notes/lesson-1.6.1-sorting.md",
+    "docs/glossary/array.md",
+    "docs/glossary/pointer-chasing.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
