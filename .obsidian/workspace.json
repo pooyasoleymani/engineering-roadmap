@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/interview/binary-search.md",
+                "file": "docs/glossary/Common Closure Principe.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "binary-search"
+              "title": "Common Closure Principe"
             }
           }
         ]
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/interview/binary-search.md",
+                "file": "docs/glossary/Common Closure Principe.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -196,8 +196,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "git-view"
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -205,8 +205,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5,
-    "collapsed": true
+    "width": 402.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -221,8 +220,10 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "3c660572df5ae446",
+  "active": "1a7f2350d091de66",
   "lastOpenFiles": [
+    "docs/interview/binary-search.md",
+    "docs/glossary/Common Closure Principe.md",
     "docs/architecture/0001-Design Cache.md",
     "docs/architecture",
     "docs/interview/arrays.md",
@@ -257,8 +258,6 @@
     "README.md",
     "ROADMAP.md",
     "docs/notes/lesson-1.6.1-sorting.md",
-    "docs/glossary/array.md",
-    "docs/glossary/pointer-chasing.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
