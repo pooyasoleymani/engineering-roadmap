@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/Projects.md",
+                "file": "projects/Windows File Explorer File Hiding/README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Projects"
+              "title": "README"
             }
           }
         ]
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/Projects.md",
+                "file": "projects/Windows File Explorer File Hiding/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -205,8 +205,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5,
-    "collapsed": true
+    "width": 402.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,9 +222,12 @@
   },
   "active": "ae17ee53a9012fc4",
   "lastOpenFiles": [
+    "projects/README.md",
+    "projects/Windows File Explorer File Hiding/README.md",
+    "projects/Windows File Explorer File Hiding",
+    "templates/Projects.md",
     "README.md",
     "ROADMAP.md",
-    "projects/README.md",
     "docs/glossary/Common Closure Principe.md",
     "docs/interview/binary-search.md",
     "docs/architecture/0001-Design Cache.md",
@@ -233,7 +235,6 @@
     "docs/interview/arrays.md",
     "docs/mindset/0001.md",
     "docs/mistakes/array vs link-list.md",
-    "templates/Projects.md",
     "templates/Lesson.md",
     "templates/Glossary.md",
     "docs/notes/lesson-1.6.4-heap-sort.md",
@@ -248,7 +249,6 @@
     "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/cmTC_ccc4c.dir/CMakeCXXCompilerABI.cpp.o",
     "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/InstallScripts.json",
     "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/Makefile2",
-    "build/CMakeFiles/CMakeScratch/TryCompile-rU1C8k/CMakeFiles/progress.marks",
     "benchmarks/searching/linear-vs-binary-search.md",
     "docs/notes/lesson-1.5-binary-search.md",
     "docs/glossary/B-tree.md",
@@ -258,7 +258,6 @@
     "docs/notes/lesson-1.6.2-merge-sort.md",
     "docs/interview/sorting-fundamental.md",
     "docs/interview/memory-layout.md",
-    "docs/interview/dynamic-arrays-amortized-growth.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
