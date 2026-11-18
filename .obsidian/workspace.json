@@ -11,10 +11,24 @@
             "id": "ae17ee53a9012fc4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "templates/Projects.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Projects"
             }
           }
         ]
@@ -157,6 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "templates/Projects.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -208,6 +223,9 @@
   },
   "active": "ae17ee53a9012fc4",
   "lastOpenFiles": [
+    "README.md",
+    "ROADMAP.md",
+    "projects/README.md",
     "docs/glossary/Common Closure Principe.md",
     "docs/interview/binary-search.md",
     "docs/architecture/0001-Design Cache.md",
@@ -241,9 +259,6 @@
     "docs/interview/sorting-fundamental.md",
     "docs/interview/memory-layout.md",
     "docs/interview/dynamic-arrays-amortized-growth.md",
-    "README.md",
-    "ROADMAP.md",
-    "docs/notes/lesson-1.6.1-sorting.md",
     "cpp/external/catch2/data/artwork/catch2-logo-full-with-background.svg",
     "cpp/external/catch2/data/artwork/catch2-logo-full.svg",
     "cpp/external/catch2/data/artwork/catch2-hand-logo.svg",
